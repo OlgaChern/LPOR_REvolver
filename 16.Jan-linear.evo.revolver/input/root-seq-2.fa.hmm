@@ -1,0 +1,48 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             input/root-seq-2.fa
+# target HMM database:             input/sdr-oxi-alpha-proteo-ALN-3.hmm
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CUH81468.1  [L=320]
+Description: 3oxoacyl[acylcarrierprotein] reductase FabG [Tropicibacter multivorans]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    5.5e-93  297.4   0.9      6e-93  297.2   0.9    1.0  1  sdr-oxi-alpha-proteo-ALN-3  
+
+
+Domain annotation for each model (and alignments):
+>> sdr-oxi-alpha-proteo-ALN-3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  297.2   0.9     6e-93     6e-93       9     302 ..      13     318 ..       1     320 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 297.2 bits;  conditional E-value: 6e-93
+  sdr-oxi-alpha-proteo-ALN-3   9 v.pdlkgrtalvTGatsGlGletaraLaaagadvvlAgRnpakgeaavaeireeapkasveleelDlasLaSvrafaerlkaerdrlDvLinNAGv..mapperktadGfElqfgtnylGhFaLtalLlpllkkakepRvvvlsSvahrsak.....infddlqaera.ykpmkaYgqsKlAnllfaleLqrRlraagsgvtsiaahPGvsrteLlsngpgrhsavallrsllaflfqsaeqgAlptllaatspeae..ggkYygpkk.llet....rg.apaeakvapqAldeevakrLwevseeltgvk 302
+                                 + +dl+ +t++vTGa+sG+Glet+r+L+++ga+vv+A+R+ a gea +++ +  a  +++e+ e+Dla+LaSvr f++r+ a+++rlD L++NAG+  m + +++t+dGfE ++g++y+GhF+++++Ll++lk+++ +R+  lsSv+h+ ++     +n++dl+++++ y++++aYg++K+An+l+a+eL++Rl+ +g  vt++++hPG++r+++  ng   + +  l++++++ +++s+e++A+++l++ +s++a   +g+Y+++++ l++     +g +p  a+++p+A+d+++ak+L+++s  l+g++
+                  CUH81468.1  13 LsKDLSAKTYIVTGANSGVGLETTRQLVKQGAHVVMACRRVAAGEAEAQSFAGLA--GTYEVSECDLADLASVRGFVNRFLASHSRLDGLMCNAGMvaMGNAAAYTKDGFESTIGVSYFGHFLMIEMLLDTLKASAPSRIGLLSSVVHAGNPknryqVNLEDLNWKTRkYNAFTAYGEAKVANVLYAMELADRLQGTG--VTTASIHPGWARSNFGGNGLLMRVMRVLMKPFQSRFTDSNETSAQTSLHVLLSDDAPnhNGAYFSQSSvLYRDpgckDGgWPL-ASPNPHATDMTAAKALVAKSYGLVGLT 318
+                                 2489********************************************9987776..9*************************************9889999999********************************************999999***********999***************************99..***************999987555555*****************************999********9556658888665999.*************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (320 residues searched)
+Target model(s):                           1  (305 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

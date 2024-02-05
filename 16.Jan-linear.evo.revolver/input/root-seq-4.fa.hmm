@@ -1,0 +1,48 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             input/root-seq-4.fa
+# target HMM database:             input/sdr-oxi-alpha-proteo-ALN-3.hmm
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CUI85963.1  [L=319]
+Description: Fatty acylCoA reductase [Thalassobius sp. CECT 5113] >CUK25569.1 Fatty acylCoA reductase [Thalassobius sp. CECT 5114]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    1.7e-92  295.7   0.0    1.9e-92  295.6   0.0    1.0  1  sdr-oxi-alpha-proteo-ALN-3  
+
+
+Domain annotation for each model (and alignments):
+>> sdr-oxi-alpha-proteo-ALN-3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  295.6   0.0   1.9e-92   1.9e-92       4     300 ..       8     318 ..       1     319 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 295.6 bits;  conditional E-value: 1.9e-92
+  sdr-oxi-alpha-proteo-ALN-3   4 wtaddv..pdlkgrtalvTGatsGlGletaraLaaagadvvlAgRnpakgeaavaeireeapkasveleelDlasLaSvrafaerlkaerdrlDvLinNAGv..mapperktadGfElqfgtnylGhFaLtalLlpllkkakepRvvvlsSvahrsak.....infddlqaera.ykpmkaYgqsKlAnllfaleLqrRlraagsgvtsiaahPGvsrteLlsngpgrhsava.llrsllaflfqsaeqgAlptllaatspeae..ggkYygpkk.llet....rg.apaeakvapqAldeevakrLwevseeltg 300
+                                 w ++d+  +d++g++++vTGa+sG+Glet+r+L+++g++vv+A+R+p+ ge+++++ +    k+s+e++++Dl++L++vr+f++++k+++drlD L++NAG   m +++++t+dG+El++++++ GhF+Lt+lLl++lk+++ +R+ +lsSv+h+ ++     +nfddl+++++ y++++aY+++K+An+l+a+eL++Rl+ +g  vt++++hPG++r+++ s+gp +++av+ l+r+l++ + +s+e++A+++l++ +s++a   +g+Y+++++ l++     +g +p  ++++p+A+d++ ak+L+ev ++ +g
+                  CUI85963.1   8 WIDADTraKDVSGKIYIVTGANSGVGLETTRQLVTQGGHVVMACRRPEAGEDVAKSFAG-L-KGSYEVIRCDLGDLQTVRDFVATFKERHDRLDGLMCNAGAviMGSEAQYTKDGLELTMAASFDGHFLLTELLLDTLKASAPSRIGILSSVVHAGSPknrpaLNFDDLDWKSRdYSAFAAYAEAKVANVLYAMELDERLKGTG--VTTASIHPGWARSNFGSGGPLWMRAVMaLARPLTRSMSDSNEESAQTSLHVLLSDDAPnhSGAYFSQSSvLYRDkecrNGgWPL-KSPNPNATDMSLAKKLVEVGRTRVG 318
+                                 667777679******************************************99977644.3.7**************************************7778888888********************************************99999******************************************99..********************99977776*****************************999********9555546777555888.9******************999888 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (319 residues searched)
+Target model(s):                           1  (305 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 9.73
+//
+[ok]

@@ -1,0 +1,30 @@
+
+
+Building a profile HMM from an input alignment: input/sdr-oxi-alpha-proteo-ALN-3.fa# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             input/sdr-oxi-alpha-proteo-ALN-3.fa
+# output HMM file:                  input/sdr-oxi-alpha-proteo-ALN-3.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     sdr-oxi-alpha-proteo-ALN-3    82   418   305     1.60  0.590 
+
+# CPU time: 0.28u 0.00s 00:00:00.28 Elapsed: 00:00:00.32
+
+
+Format an HMM database into a binary format for hmmscan..Working...    done.
+Pressed and indexed 1 HMMs (1 names).
+Models pressed into binary file:   input/sdr-oxi-alpha-proteo-ALN-3.hmm.h3m
+SSI index for binary model file:   input/sdr-oxi-alpha-proteo-ALN-3.hmm.h3i
+Profiles (MSV part) pressed into:  input/sdr-oxi-alpha-proteo-ALN-3.hmm.h3f
+Profiles (remainder) pressed into: input/sdr-oxi-alpha-proteo-ALN-3.hmm.h3p
+
+=========================================================================
+
+Analysis is completed.
+
+=========================================================================

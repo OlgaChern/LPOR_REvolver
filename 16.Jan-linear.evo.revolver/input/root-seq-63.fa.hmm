@@ -1,0 +1,48 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             input/root-seq-63.fa
+# target HMM database:             input/sdr-oxi-alpha-proteo-ALN-3.hmm
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       WP_068087709.1  [L=322]
+Description: shikimate dehydrogenase [Novosphingobium rosa]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+   8.6e-107  342.7   0.1   9.5e-107  342.6   0.1    1.0  1  sdr-oxi-alpha-proteo-ALN-3  
+
+
+Domain annotation for each model (and alignments):
+>> sdr-oxi-alpha-proteo-ALN-3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  342.6   0.1  9.5e-107  9.5e-107       4     303 ..       9     322 .]       1     322 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 342.6 bits;  conditional E-value: 9.5e-107
+  sdr-oxi-alpha-proteo-ALN-3   4 wtaddv...pdlkgrtalvTGatsGlGletaraLaaagadvvlAgRnpakgeaavaeireeap..kasveleelDlasLaSvrafaerlkaerdrlDvLinNAGvmapperktadGfElqfgtnylGhFaLtalLlpllkkakepRvvvlsSvahrsakinfddlqaera.ykpmkaYgqsKlAnllfaleLqrRlraagsgvtsiaahPGvs.rteLlsngpgrhsavallrslla.........flfqsaeqgAlptllaatspeae..ggkYygpkklletrg.apaeakvapqAldeevakrLwevseeltgvkf 303
+                                 +t+ddv   +dl+g+++lvTGa++GlG+et+raLaa+gadvv A R+ akge+a+a++r++a+  ++s+el++lDlasLaSvra+a++lka+ +++D++i+NAGvmapp+ +tadGfE+q+gtn+lGhF+L+++++ l++++  +R+v+lsS++hr a+++++d+++e++ y+p+  Yg+sK+An+lfa+e++rR+r +g  ++++a+hPGv+ +teL +++++ + ++al+ s+ +         ++ +s++qgA+++++  + + a+  g++Y++++++++ +  +  +a+v+p+Alde++a++Lw+ se+l+g++f
+              WP_068087709.1   9 STTDDVlagVDLRGKRVLVTGASAGLGIETCRALAAHGADVVGAVRDLAKGENATAAVRDAARagGGSFELVQLDLASLASVRACADALKADGRPFDIVITNAGVMAPPFGQTADGFETQLGTNHLGHFLLVNRIAGLIREG--GRLVSLSSSGHRLADVDLEDPHFETTpYDPWVGYGRSKTANILFAVEFDRRHRGRG--LRATAVHPGVIfETELSRHMNEAD-IQALVGSIETslaeaglppLVGKSIPQGAATSVWSGVVAPADqvGAHYCEDCHVAQLDDqPGIRAGVRPYALDETRAQALWALSEKLVGETF 322
+                                 7999999999*************************************************99988899***************************************************************************..*****************************************************999..**********99****77777433.344555555555579999999****************99999999************8746678*************************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (322 residues searched)
+Target model(s):                           1  (305 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 9.82
+//
+[ok]

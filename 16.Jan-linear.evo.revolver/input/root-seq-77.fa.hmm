@@ -1,0 +1,48 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             input/root-seq-77.fa
+# target HMM database:             input/sdr-oxi-alpha-proteo-ALN-3.hmm
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       WP_034495512.1  [L=281]
+Description: oxidoreductase [Agrobacterium sp. 33MFTa1.1]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    7.1e-97  310.1   0.1      8e-97  310.0   0.1    1.0  1  sdr-oxi-alpha-proteo-ALN-3  
+
+
+Domain annotation for each model (and alignments):
+>> sdr-oxi-alpha-proteo-ALN-3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  310.0   0.1     8e-97     8e-97      17     302 ..       1     280 [.       1     281 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 310.0 bits;  conditional E-value: 8e-97
+  sdr-oxi-alpha-proteo-ALN-3  17 alvTGatsGlGletaraLaaagadvvlAgRnpakgeaavaeireeapkasveleelDlasLaSvrafaerlkaerdrlDvLinNAGvmapperk.tadGfElqfgtnylGhFaLtalLlpllkkakepRvvvlsSvahrsakinfddlqaera.ykpmkaYgqsKlAnllfaleLqrRlraagsgvtsiaahPGvsrteLlsngpgrhsavallrsllaflfqsaeqgAlptllaatspeae..ggkYygpkk...lletrg.apaeakvapqAldeevakrLwevseeltgvk 302
+                                 ++vTG+++G+Glet+raLaaaga+v++A+R+p++++a++++i++e++k+sv++ +lD+a+L+Svraf+e +++   +lDvL+nNAGvma p  + t +G E+qf+tnylGhFaL+  L ++l+ka+ +Rv++++Sv++  a++ +dd++++   y+p+  YgqsK+A++l+++ ++r+++++g  +ts a++PG+++t+L++++ g       lr   ++l +++eqgA++t+l+a+sp +e  +g+Yy++++   ++e rg  p  ++va++A+de++a+rLw ++e++ gvk
+              WP_034495512.1   1 MIVTGGSGGIGLETTRALAAAGASVTIAARRPDDARAVAERIASEITKGSVSVRQLDVADLSSVRAFIEGWDQ---KLDVLVNNAGVMAIPDLQrTPEGREMQFATNYLGHFALALGLRTHLAKANGARVISVASVGSLYAPVFWDDPDFRFIpYDPLLGYGQSKTACILMSVGITRKWANEG--ITSNALNPGAIATNLQKHTGG-------LR-TPEHLRKTTEQGASTTVLLAASPLVEgrSGEYYDDCQkasVVEERGnGPF-KGVAHYAIDEDNAERLWGMAETMLGVK 280
+                                 69*********************************************************************99...6***************999****************************************************************************************..***************333333.......22.3456899*******************99********98889999997777.9************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (281 residues searched)
+Target model(s):                           1  (305 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

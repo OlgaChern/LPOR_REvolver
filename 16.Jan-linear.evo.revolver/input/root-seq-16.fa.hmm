@@ -1,0 +1,48 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             input/root-seq-16.fa
+# target HMM database:             input/sdr-oxi-alpha-proteo-ALN-3.hmm
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       WP_003533717.1  [L=327]
+Description: short chain dehydrogenase [Sinorhizobium meliloti] >EHK75005.1 dehydrogenase [Sinorhizobium meliloti CCNWSX0020]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+   2.4e-139  449.6   0.0   2.7e-139  449.4   0.0    1.0  1  sdr-oxi-alpha-proteo-ALN-3  
+
+
+Domain annotation for each model (and alignments):
+>> sdr-oxi-alpha-proteo-ALN-3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  449.4   0.0  2.7e-139  2.7e-139       1     303 [.       1     306 [.       1     308 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 449.4 bits;  conditional E-value: 2.7e-139
+  sdr-oxi-alpha-proteo-ALN-3   1 msk.wtaddvpdlkgrtalvTGatsGlGletaraLaaagadvvlAgRnpakgeaavaeireeapkasveleelDlasLaSvrafaerlkaerdrlDvLinNAGvmapperk.tadGfElqfgtnylGhFaLtalLlpllkkakepRvvvlsSvahrsak..infddlqaeraykpmkaYgqsKlAnllfaleLqrRlraagsgvtsiaahPGvsrteLlsngpgrhsavallrsllaflfqsaeqgAlptllaatspeaeggkYygpkklletrgapaeakvapqAldeevakrLwevseeltgvkf 303
+                                 msk wt dd+p+++grt+lvTG t+GlG+e+a a+a+ag++v+lAgRnpakg++av++i+e +p+a+v++e++Dl++LaS++a+a rlk++rdrlDvLinNAGvm+pp+rk t+dGfElqfgtnylGhFaLta+Llpll+++++pRvv+lsS+a+r +k  infddlqaer+ykpm +YgqsKlA+l+faleLqrR++ + +g+ts+aahPG+srt+Ll+n pgr+sa++llrsl++flfq+ +qgAlptl+aatsp+a gg+Yygp++l etrg+p+ea ++pqA +++vakrLw++se+l+++++
+              WP_003533717.1   1 MSKpWTLDDMPSQQGRTILVTG-TGGLGFEDAFAFARAGGEVILAGRNPAKGADAVRQINEIVPRAAVTFERVDLGHLASIEALALRLKRSRDRLDVLINNAGVMTPPRRKtTQDGFELQFGTNYLGHFALTAHLLPLLSQGHDPRVVTLSSIAARGSKvaINFDDLQAERDYKPMPVYGQSKLACLMFALELQRRSEMNAWGITSLAAHPGISRTDLLHNEPGRRSAQGLLRSLMWFLFQPPAQGALPTLFAATSPDAVGGGYYGPDRLGETRGHPTEALIPPQAREAHVAKRLWDISEQLIDTSY 306
+                                 7788******************.**************************************************************************************************************************************99999*********************************************************************************************************************************************9876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (327 residues searched)
+Target model(s):                           1  (305 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

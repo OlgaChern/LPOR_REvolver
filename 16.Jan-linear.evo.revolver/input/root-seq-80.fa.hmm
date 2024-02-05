@@ -1,0 +1,48 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             input/root-seq-80.fa
+# target HMM database:             input/sdr-oxi-alpha-proteo-ALN-3.hmm
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       WP_066614853.1  [L=309]
+Description: oxidoreductase [Bosea sp. PAMC 26642] >AMJ61455.1 oxidoreductase [Bosea sp. PAMC 26642]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    1.5e-94  302.5   0.0    1.8e-94  302.2   0.0    1.0  1  sdr-oxi-alpha-proteo-ALN-3  
+
+
+Domain annotation for each model (and alignments):
+>> sdr-oxi-alpha-proteo-ALN-3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  302.2   0.0   1.8e-94   1.8e-94       4     302 ..      12     307 ..       6     309 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 302.2 bits;  conditional E-value: 1.8e-94
+  sdr-oxi-alpha-proteo-ALN-3   4 wtaddv...pdlkgrtalvTGatsGlGletaraLaaagadvvlAgRnpakgeaavaeireeapkasveleelDlasLaSvrafaerlkaerdrlDvLinNAGvmapperk.tadGfElqfgtnylGhFaLtalLlpllkkakepRvvvlsSvahrsakinfddlqaera.ykpmkaYgqsKlAnllfaleLqrRlraagsgvtsiaahPGvsrteLlsngpgrhsavallrsllaflfqsaeqgAlptllaatspeae..ggkYygpkk...lletrgapaeakvapqAldeevakrLwevseeltgvk 302
+                                 +ta+dv   +dl+g++a+vTG+ sG+G+etaraLa+ ga+v+lA R+p++ e  ++eir+++++ +v++  lDl +  S++af+++++    +lD+L+nNAG+ma pe + t +G+E+qf+tn+lGhFaLt  L+p++++a ++R+v+lsS+a+ +a++ fddl+++   y+p+ aYgq+K+A++l a+e +rR+r++g  + + a++PG+++t+L     ++h+  + lr+    l+++ +qgA++++l+a+sp ++  gg+Y+++++   ++  r +  + +vap+A+d+++a+rLw+v++ l+  k
+              WP_066614853.1  12 TTASDVvagVDLTGKRAIVTGGASGIGIETARALASVGAEVTLAVRRPQDSELIAEEIRQSTQNRRVHVAPLDLVDPLSIQAFIAAWQG---PLDILVNNAGIMALPELErTPQGWEMQFATNFLGHFALTLGLHPAMRAAGHARIVSLSSSANMFAPVIFDDLHFDFMpYAPFVAYGQAKTACVLLAVEATRRWREDG--ILANALNPGAIATNL-----QKHT--GGLRT-PPALQKTPQQGASTSVLLAASPLLQgvGGRYFEDCNeapVVSRRPTDFSGGVAPYAIDAANARRLWDVATALISSK 307
+                                 5778888889*****************************************************************************99...7***************999****************************************************************************************..***************.....4443..22222.346889*******************99*********77777777777789*******************9998765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (309 residues searched)
+Target model(s):                           1  (305 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

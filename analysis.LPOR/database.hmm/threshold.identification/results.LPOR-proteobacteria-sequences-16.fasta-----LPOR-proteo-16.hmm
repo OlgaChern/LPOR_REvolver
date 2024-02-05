@@ -1,0 +1,588 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /project/olga-phylo/LPOR/2017.01.January/analysis.LPOR/database.hmm/LPOR-proteo-16.hmm
+# target sequence database:        /project/olga-phylo/LPOR/2017.01.January/analysis.LPOR/database.blast/LPOR-proteobacteria-sequences-16.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       LPOR-proteo-16.aln.FFT-NS-i  [M=318]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                                       -----------
+     3e-192  627.7   0.0   3.3e-192  627.6   0.0    1.0  1  Loktanella_fryxellensis_DSM_16213|2623288000|proteo             
+   1.5e-191  625.4   0.0   1.6e-191  625.3   0.0    1.0  1  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo  
+   1.4e-190  622.2   0.0   1.6e-190  622.0   0.0    1.0  1  Erythrobacteraceae_bacterium_HL-111|KPP91129.1                  
+   8.2e-188  613.1   0.0   9.1e-188  613.0   0.0    1.0  1  Erythrobacter_litoralis|DSM_8509|KEO90002                       
+   2.7e-187  611.4   0.0     3e-187  611.3   0.0    1.0  1  Porphyrobacter_dokdonensis|WP_068863292.1                       
+     3e-187  611.3   0.0   3.3e-187  611.1   0.0    1.0  1  Sulfitobacter_guttiformis|KCTC_32187|WP_025063112               
+   4.8e-187  610.6   0.0   5.4e-187  610.4   0.0    1.0  1  Loktanella_vestfoldensis|DSM_16212|WP_026352701                 
+   1.6e-186  608.9   0.1   1.9e-186  608.6   0.1    1.0  1  Acidiphilium_rubrum_ATCC_35905|2681882064|proteo                
+   5.8e-185  603.8   0.1   6.4e-185  603.6   0.1    1.0  1  Dinoroseobacter_shibae|DFL12|WP_012187437                       
+   6.1e-185  603.7   0.1   6.8e-185  603.5   0.1    1.0  1  Acidiphilium_angustum|ATCC_35903|WP_029314395                   
+   2.8e-184  601.5   0.1   3.1e-184  601.4   0.1    1.0  1  Erythrobacter_sp._SCN_62-14|ODS93018.1                          
+   1.1e-183  599.6   0.0   1.2e-183  599.4   0.0    1.0  1  Gemmatimonas_phototrophica|WP_026848496.1                       
+   2.7e-181  591.7   0.0     3e-181  591.5   0.0    1.0  1  Sandarakinorhabdus_sp._AAP62|WP_020480449.1                     
+   3.5e-181  591.3   0.0   3.9e-181  591.2   0.0    1.0  1  Metagenomic-POR|JCVI_readid_1095522100565                       
+   6.9e-180  587.1   0.0   7.7e-180  586.9   0.0    1.0  1  Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993            
+      3e-82  266.2   6.4    2.5e-68  220.5   0.3    2.0  2  Porphyrobacter_sanguineus_DSM_11032|2583133031|proteo           
+
+
+Domain annotation for each sequence (and alignments):
+>> Loktanella_fryxellensis_DSM_16213|2623288000|proteo  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  627.6   0.0  3.3e-192  3.3e-192       3     317 ..       5     319 ..       1     320 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 627.6 bits;  conditional E-value: 3.3e-192
+                          LPOR-proteo-16.aln.FFT-NS-i   3 teklaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreilel 60 
+                                                          +++l+ivtGassGvGl++tkal+d+Gwhvimacrdl+ka+aaa++l+l++d++++++l
+  Loktanella_fryxellensis_DSM_16213|2623288000|proteo   5 HHPLCIVTGASSGVGLHSTKALIDKGWHVIMACRDLEKAAAAAQSLNLQRDMFDVMHL 62 
+                                                          4599****************************************************** PP
+
+                          LPOR-proteo-16.aln.FFT-NS-i  61 dlgslasvrafaeefralekaldalvlnaavylprlkeparspegyeisvatnylghf 118
+                                                          dlgsl+svraf++++ra+++aldalv+naa+ylp+lk p rsp+gyeisvatnylghf
+  Loktanella_fryxellensis_DSM_16213|2623288000|proteo  63 DLGSLDSVRAFHAAYRAQNRALDALVCNAATYLPQLKVPLRSPDGYEISVATNYLGHF 120
+                                                          ********************************************************** PP
+
+                          LPOR-proteo-16.aln.FFT-NS-i 119 llanllledlkkaeakrlvtlgtvtanseefggkipipapadlgdlegleagfkapva 176
+                                                          llanl+ledl+k++a+rlvtlgtvtanseefggk+pipapadlgd++g++agfk+p+a
+  Loktanella_fryxellensis_DSM_16213|2623288000|proteo 121 LLANLMLEDLQKSPAPRLVTLGTVTANSEEFGGKVPIPAPADLGDFQGMKAGFKDPIA 178
+                                                          ********************************************************** PP
+
+                          LPOR-proteo-16.aln.FFT-NS-i 177 midgkpfkpgkaykdsklalmilsrelharyheetgivfatlypGcvadtplfrdapk 234
+                                                          midgkpfkpgkaykdskl++m++srelhar+h++tgivf+tlypGcvadtplfr+ap+
+  Loktanella_fryxellensis_DSM_16213|2623288000|proteo 179 MIDGKPFKPGKAYKDSKLCCMMMSRELHARFHDRTGIVFSTLYPGCVADTPLFRNAPR 236
+                                                          ********************************************************** PP
+
+                          LPOR-proteo-16.aln.FFT-NS-i 235 afqkifpwfqknitkGyvsqplaGervaqvvadpefarsGvhwswGnrqkegreafaq 292
+                                                          +fq+ifpwfqk+itkGyvsqpl+Gervaqvv+dp+farsGvhwswGnrq++gr+af+q
+  Loktanella_fryxellensis_DSM_16213|2623288000|proteo 237 LFQNIFPWFQKKITKGYVSQPLSGERVAQVVTDPDFARSGVHWSWGNRQEQGRKAFSQ 294
+                                                          ********************************************************** PP
+
+                          LPOR-proteo-16.aln.FFT-NS-i 293 slsakaedaarserlwdlsaklvgl 317
+                                                          sls+ka+d++rse+lw+lsa+lv +
+  Loktanella_fryxellensis_DSM_16213|2623288000|proteo 295 SLSSKATDTTRSETLWNLSAALVRI 319
+                                                          **********************986 PP
+
+>> Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  625.3   0.0  1.6e-191  1.6e-191       5     317 ..       7     319 ..       1     320 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 625.3 bits;  conditional E-value: 1.6e-191
+                                     LPOR-proteo-16.aln.FFT-NS-i   5 klaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelgle 51 
+                                                                     +lai+tGassGvGlyat al+ rGwhvimacrdl+ka+aaa+ lgl+
+  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo   7 PLAIITGASSGVGLYATAALIGRGWHVIMACRDLDKAAAAATGLGLR 53 
+                                                                     899******************************************** PP
+
+                                     LPOR-proteo-16.aln.FFT-NS-i  52 kdsreileldlgslasvrafaeefralekaldalvlnaavylprlke 98 
+                                                                     +d++ei++ldl+s+asvrafa++fra++++ldalv+naa+ylp+lke
+  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo  54 TDRYEIAHLDLASQASVRAFAAAFRASDRPLDALVCNAATYLPLLKE 100
+                                                                     *********************************************** PP
+
+                                     LPOR-proteo-16.aln.FFT-NS-i  99 parspegyeisvatnylghfllanllledlkkaeakrlvtlgtvtan 145
+                                                                     parspegye++vatnylghfllanl+l+dl++a+a+rlvtlgtvtan
+  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo 101 PARSPEGYELNVATNYLGHFLLANLMLDDLQRAPAPRLVTLGTVTAN 147
+                                                                     *********************************************** PP
+
+                                     LPOR-proteo-16.aln.FFT-NS-i 146 seefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykds 192
+                                                                     seefgg+ipipapadlgd+egl+agfkap+amidgkpfk gkaykds
+  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo 148 SEEFGGRIPIPAPADLGDFEGLAAGFKAPIAMIDGKPFKGGKAYKDS 194
+                                                                     *********************************************** PP
+
+                                     LPOR-proteo-16.aln.FFT-NS-i 193 klalmilsrelharyheetgivfatlypGcvadtplfrdapkafqki 239
+                                                                     kl++m++srelharyh++tgi+f+tlypGcvadtplfr+apk+fqki
+  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo 195 KLCTMMMSRELHARYHAQTGIIFSTLYPGCVADTPLFRNAPKLFQKI 241
+                                                                     *********************************************** PP
+
+                                     LPOR-proteo-16.aln.FFT-NS-i 240 fpwfqknitkGyvsqplaGervaqvvadpefarsGvhwswGnrqkeg 286
+                                                                     fpwfqknitkGyvsqpl+G+rvaqvvadp f++sGvhwswGnrq+eg
+  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo 242 FPWFQKNITKGYVSQPLSGDRVAQVVADPGFTQSGVHWSWGNRQQEG 288
+                                                                     *********************************************** PP
+
+                                     LPOR-proteo-16.aln.FFT-NS-i 287 reafaqslsakaedaarserlwdlsaklvgl 317
+                                                                     reafaqsls+ka+da+rs+rlw lsa lvgl
+  Sphingomonadales_sp._genome_bin_49_Ga0077557|2624442664|proteo 289 REAFAQSLSSKATDASRSQRLWALSAGLVGL 319
+                                                                     *****************************98 PP
+
+>> Erythrobacteraceae_bacterium_HL-111|KPP91129.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  622.0   0.0  1.6e-190  1.6e-190       4     317 ..       6     319 ..       1     320 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 622.0 bits;  conditional E-value: 1.6e-190
+                     LPOR-proteo-16.aln.FFT-NS-i   4 eklaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgsla 66 
+                                                     ++++i+tGassG+Gl+atkalv+rGwhv+macrd+akaeaaa+e+g++++ r+i++ldlgsla
+  Erythrobacteraceae_bacterium_HL-111|KPP91129.1   6 TPICIITGASSGIGLWATKALVTRGWHVVMACRDTAKAEAAAREIGIAPEGRTIMRLDLGSLA 68 
+                                                     489************************************************************ PP
+
+                     LPOR-proteo-16.aln.FFT-NS-i  67 svrafaeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlk 129
+                                                     +vrafaeefra +++ldalv+naa+y+prl ep rspeg+e+svatny+ghfllanlll++l 
+  Erythrobacteraceae_bacterium_HL-111|KPP91129.1  69 GVRAFAEEFRAFDRPLDALVCNAATYMPRLAEPLRSPEGFELSVATNYFGHFLLANLLLDELV 131
+                                                     *************************************************************** PP
+
+                     LPOR-proteo-16.aln.FFT-NS-i 130 kaeakrlvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykds 192
+                                                     +a+++rlvtlgtvtanseefggkipipapadlgd++gl+agf+ p+amidgkpfkpgkaykds
+  Erythrobacteraceae_bacterium_HL-111|KPP91129.1 132 RARDARLVTLGTVTANSEEFGGKIPIPAPADLGDFAGLKAGFTGPHAMIDGKPFKPGKAYKDS 194
+                                                     *************************************************************** PP
+
+                     LPOR-proteo-16.aln.FFT-NS-i 193 klalmilsrelharyheetgivfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqp 255
+                                                     kla+m++sre+har+he+tgivf+tlypGcvadtplfr+ap+afq+ifpwfqknit Gyvsqp
+  Erythrobacteraceae_bacterium_HL-111|KPP91129.1 195 KLACMMMSREFHARFHESTGIVFTTLYPGCVADTPLFRHAPRAFQRIFPWFQKNITGGYVSQP 257
+                                                     *************************************************************** PP
+
+                     LPOR-proteo-16.aln.FFT-NS-i 256 laGervaqvvadpefarsGvhwswGnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                     laGerva+vvadp+farsGvhwswGnrq+egr+afaqsls +a+daar+++lwdl+a+lvgl
+  Erythrobacteraceae_bacterium_HL-111|KPP91129.1 258 LAGERVADVVADPAFARSGVHWSWGNRQREGRAAFAQSLSPRATDAARARELWDLTARLVGL 319
+                                                     *************************************************************8 PP
+
+>> Erythrobacter_litoralis|DSM_8509|KEO90002  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  613.0   0.0  9.1e-188  9.1e-188       8     317 ..       1     310 []       1     310 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 613.0 bits;  conditional E-value: 9.1e-188
+                LPOR-proteo-16.aln.FFT-NS-i   8 ivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvrafaeef 75 
+                                                i+tGassG+Gl+at+al++rGwhv+macrd+akaeaaa+e+gl+++ r+i++ldlg+l++vr f++ef
+  Erythrobacter_litoralis|DSM_8509|KEO90002   1 IITGASSGIGLWATRALMARGWHVVMACRDTAKAEAAAREIGLAPEGRTIMQLDLGTLSGVRGFVSEF 68 
+                                                89****************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i  76 ralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkkaeakrlvtlgtvt 143
+                                                r+l+++ldalv+naa+y+prl++p rspegye+sva+ny+ghfllanllledl +a+++rlvtlgtvt
+  Erythrobacter_litoralis|DSM_8509|KEO90002  69 RMLGRPLDALVCNAATYMPRLTAPLRSPEGYELSVAINYFGHFLLANLLLEDLGRARDPRLVTLGTVT 136
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 144 anseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsklalmilsrelharyheet 211
+                                                anseefgg+ipipapadlgd+egl+agfk+pvamidg+pfkpgkaykdskla+m++srelhar+h++t
+  Erythrobacter_litoralis|DSM_8509|KEO90002 137 ANSEEFGGRIPIPAPADLGDFEGLKAGFKDPVAMIDGNPFKPGKAYKDSKLACMMMSRELHARFHDRT 204
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 212 givfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGervaqvvadpefarsGvhwsw 279
+                                                givf+tlypGcvadtplfr+ap+afq+ifpwfqkn+t GyvsqplaGerva+vvadp+farsGvhwsw
+  Erythrobacter_litoralis|DSM_8509|KEO90002 205 GIVFTTLYPGCVADTPLFRHAPRAFQRIFPWFQKNVTGGYVSQPLAGERVADVVADPAFARSGVHWSW 272
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 280 Gnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                Gnrq+egreafaqsls ka+daar+++lwdl+a+lvgl
+  Erythrobacter_litoralis|DSM_8509|KEO90002 273 GNRQREGREAFAQSLSPKATDAARARELWDLTARLVGL 310
+                                                ************************************97 PP
+
+>> Porphyrobacter_dokdonensis|WP_068863292.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  611.3   0.0    3e-187    3e-187       4     317 ..       6     323 ..       1     324 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 611.3 bits;  conditional E-value: 3e-187
+                LPOR-proteo-16.aln.FFT-NS-i   4 eklaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvraf 71 
+                                                +k+a+vtGassGvGl+++kal+drGwhvimacrdlakae+aa+e g+++++r++l++dl+++asvra+
+  Porphyrobacter_dokdonensis|WP_068863292.1   6 KKTALVTGASSGVGLWSAKALADRGWHVIMACRDLAKAESAAREAGIAPANRTLLHVDLADFASVRAL 73 
+                                                4799**************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i  72 aee....fralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkkaeakr 135
+                                                ae+    +ra + aldalvlnaavylpr+++p+r+++gyeisvatnylghfllanlll+dl+ a+a+r
+  Porphyrobacter_dokdonensis|WP_068863292.1  74 AEAaretVRAGGGALDALVLNAAVYLPRAEAPQRNADGYEISVATNYLGHFLLANLLLPDLEAAPAPR 141
+                                                98755557788889****************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 136 lvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsklalmilsrel 203
+                                                lvtlgtvtanseefggkipipapadlgdlegleagf++pvamidgkpfkpgkaykdsklalmi+srel
+  Porphyrobacter_dokdonensis|WP_068863292.1 142 LVTLGTVTANSEEFGGKIPIPAPADLGDLEGLEAGFRDPVAMIDGKPFKPGKAYKDSKLALMIMSREL 209
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 204 haryheetgivfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGervaqvvadpefa 271
+                                                har+h++tgi+fatlypGcvadtplfr+apkafq+ifpwfqknitkGyvsqpl+Gervaqvvadp+f+
+  Porphyrobacter_dokdonensis|WP_068863292.1 210 HARFHDKTGIIFATLYPGCVADTPLFRHAPKAFQTIFPWFQKNITKGYVSQPLSGERVAQVVADPDFT 277
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 272 rsGvhwswGnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                rsGvhwswGnrqk+g++afaq+ls+kae+a+r++rlwdlsaklvgl
+  Porphyrobacter_dokdonensis|WP_068863292.1 278 RSGVHWSWGNRQKPGAQAFAQPLSSKAENAHRAARLWDLSAKLVGL 323
+                                                *********************************************8 PP
+
+>> Sulfitobacter_guttiformis|KCTC_32187|WP_025063112  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  611.1   0.0  3.3e-187  3.3e-187       8     317 ..       1     310 []       1     310 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 611.1 bits;  conditional E-value: 3.3e-187
+                        LPOR-proteo-16.aln.FFT-NS-i   8 ivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslas 67 
+                                                        ivtGassGvGly+t+al+++Gw+vimacr+++ka +aa++lgl++d+++i++ldlgsl+s
+  Sulfitobacter_guttiformis|KCTC_32187|WP_025063112   1 IVTGASSGVGLYSTQALIAKGWQVIMACRNMEKAFQAAHDLGLPTDAYQIMHLDLGSLSS 60 
+                                                        89********************************************************** PP
+
+                        LPOR-proteo-16.aln.FFT-NS-i  68 vrafaeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllled 127
+                                                        vraf+++fra+++ald+l++naa+ylp+lk+parspeg+eisvatnylghfllanl+led
+  Sulfitobacter_guttiformis|KCTC_32187|WP_025063112  61 VRAFHAAFRAQNRALDTLISNAATYLPQLKQPARSPEGFEISVATNYLGHFLLANLMLED 120
+                                                        ************************************************************ PP
+
+                        LPOR-proteo-16.aln.FFT-NS-i 128 lkkaeakrlvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgk 187
+                                                        l+k++ +rlvtlgtvtanseefggkipipapadlg+++gl++gf+apv+midgkpfkpgk
+  Sulfitobacter_guttiformis|KCTC_32187|WP_025063112 121 LQKSHLPRLVTLGTVTANSEEFGGKIPIPAPADLGEFQGLKDGFQAPVSMIDGKPFKPGK 180
+                                                        ************************************************************ PP
+
+                        LPOR-proteo-16.aln.FFT-NS-i 188 aykdsklalmilsrelharyheetgivfatlypGcvadtplfrdapkafqkifpwfqkni 247
+                                                        aykdskl++m++srelharyhe+tgivf+tlypGcva+tplfr+ap +fqk+fpwfqkni
+  Sulfitobacter_guttiformis|KCTC_32187|WP_025063112 181 AYKDSKLCCMMMSRELHARYHEDTGIVFSTLYPGCVAETPLFRNAPALFQKVFPWFQKNI 240
+                                                        ************************************************************ PP
+
+                        LPOR-proteo-16.aln.FFT-NS-i 248 tkGyvsqplaGervaqvvadpefarsGvhwswGnrqkegreafaqslsakaedaarserl 307
+                                                        tkGyvsqpl+G rvaqvvadpef+rsGvhwswGnrqk g+ afaqs+s+ka+daars++l
+  Sulfitobacter_guttiformis|KCTC_32187|WP_025063112 241 TKGYVSQPLSGARVAQVVADPEFTRSGVHWSWGNRQKVGQVAFAQSMSDKATDAARSKEL 300
+                                                        ************************************************************ PP
+
+                        LPOR-proteo-16.aln.FFT-NS-i 308 wdlsaklvgl 317
+                                                        wdlsa lv+l
+  Sulfitobacter_guttiformis|KCTC_32187|WP_025063112 301 WDLSAGLVCL 310
+                                                        *******986 PP
+
+>> Loktanella_vestfoldensis|DSM_16212|WP_026352701  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  610.4   0.0  5.4e-187  5.4e-187       8     317 ..       1     310 []       1     310 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 610.4 bits;  conditional E-value: 5.4e-187
+                      LPOR-proteo-16.aln.FFT-NS-i   8 ivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvr 69 
+                                                      ivtGassGvGl++t+al+ rGwhvimacrdlakae+aa++l++++ s+e++++dlgsl+svr
+  Loktanella_vestfoldensis|DSM_16212|WP_026352701   1 IVTGASSGVGLHTTNALIGRGWHVIMACRDLAKAETAARSLDMASGSYELAHIDLGSLDSVR 62 
+                                                      89************************************************************ PP
+
+                      LPOR-proteo-16.aln.FFT-NS-i  70 afaeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkka 131
+                                                      af++ fra++ +ldalv+naavylp+lk+parspeg+eisvatny+ghfllanl+l dl+k+
+  Loktanella_vestfoldensis|DSM_16212|WP_026352701  63 AFYAGFRARGVPLDALVCNAAVYLPLLKTPARSPEGFEISVATNYFGHFLLANLMLADLQKS 124
+                                                      ************************************************************** PP
+
+                      LPOR-proteo-16.aln.FFT-NS-i 132 eakrlvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsk 193
+                                                      +a+rl+tlgtvtanseefggk+pipapadlg+l+gl+agfkapvamidgkpfk+gkaykdsk
+  Loktanella_vestfoldensis|DSM_16212|WP_026352701 125 AAPRLITLGTVTANSEEFGGKVPIPAPADLGELQGLKAGFKAPVAMIDGKPFKAGKAYKDSK 186
+                                                      ************************************************************** PP
+
+                      LPOR-proteo-16.aln.FFT-NS-i 194 lalmilsrelharyheetgivfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqp 255
+                                                      l +m++srelh+r+h+etgivf+tlypGcvadtplfr+ap +fqk+fpwfqknitkGyvsq+
+  Loktanella_vestfoldensis|DSM_16212|WP_026352701 187 LGTMVMSRELHTRFHDETGIVFSTLYPGCVADTPLFRNAPPLFQKVFPWFQKNITKGYVSQS 248
+                                                      ************************************************************** PP
+
+                      LPOR-proteo-16.aln.FFT-NS-i 256 laGervaqvvadpefarsGvhwswGnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                      l+Gervaqvvadp f++sGvhwswGnrq+egr+af+q ls ka+da+rs++lwdl+a lvgl
+  Loktanella_vestfoldensis|DSM_16212|WP_026352701 249 LSGERVAQVVADPGFSQSGVHWSWGNRQREGRKAFSQGLSIKATDAERSRELWDLTAGLVGL 310
+                                                      ************************************************************97 PP
+
+>> Acidiphilium_rubrum_ATCC_35905|2681882064|proteo  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  608.6   0.1  1.9e-186  1.9e-186       3     317 ..      16     332 ..      12     333 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 608.6 bits;  conditional E-value: 1.9e-186
+                       LPOR-proteo-16.aln.FFT-NS-i   3 teklaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlg 63 
+                                                       t +++ivtGassGvGl+atkalvdrGwhv+macrdlaka++aaa+l+++++s++ le+dlg
+  Acidiphilium_rubrum_ATCC_35905|2681882064|proteo  16 TPPHVIVTGASSGVGLHATKALVDRGWHVVMACRDLAKAARAAANLDINPASITPLEIDLG 76 
+                                                       4489********************************************************* PP
+
+                       LPOR-proteo-16.aln.FFT-NS-i  64 slasvrafaeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllanll 124
+                                                       s++svr+fa++f+al k+ldalv+naavylp+lk+parspeg+eisvatn++ghfll++ll
+  Acidiphilium_rubrum_ATCC_35905|2681882064|proteo  77 SQSSVRRFAADFAALVKPLDALVCNAAVYLPLLKTPARSPEGFEISVATNHFGHFLLSHLL 137
+                                                       ************************************************************* PP
+
+                       LPOR-proteo-16.aln.FFT-NS-i 125 ledlkka..eakrlvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpf 183
+                                                       l++l+++  +akrlvtlgtvtanseefggkipipapa+lg+l+gleagf+apvamidgk+f
+  Acidiphilium_rubrum_ATCC_35905|2681882064|proteo 138 LPHLQSPgrRAKRLVTLGTVTANSEEFGGKIPIPAPANLGALAGLEAGFRAPVAMIDGKKF 198
+                                                       *****998899************************************************** PP
+
+                       LPOR-proteo-16.aln.FFT-NS-i 184 kpgkaykdsklalmilsrelharyheetgivfatlypGcvadtplfrdapkafqkifpwfq 244
+                                                       kpgkaykdskl++mi+sre+h+ryh++tgi+f+tlypGcvadt+lfrdapk+fq+ifpwfq
+  Acidiphilium_rubrum_ATCC_35905|2681882064|proteo 199 KPGKAYKDSKLCNMIISREFHRRYHQNTGIIFNTLYPGCVADTALFRDAPKLFQTIFPWFQ 259
+                                                       ************************************************************* PP
+
+                       LPOR-proteo-16.aln.FFT-NS-i 245 knitkGyvsqplaGervaqvvadpefarsGvhwswGnrqkegreafaqslsakaedaarse 305
+                                                       k+itkGyvsq+laG+rvaqvvad++fa+sGvhwswGnrq ++r+af+q+ls+ a+daar++
+  Acidiphilium_rubrum_ATCC_35905|2681882064|proteo 260 KTITKGYVSQALAGTRVAQVVADDAFAQSGVHWSWGNRQLPSRDAFSQPLSSAANDAARAA 320
+                                                       ************************************************************* PP
+
+                       LPOR-proteo-16.aln.FFT-NS-i 306 rlwdlsaklvgl 317
+                                                       rlw+l+a+lvg 
+  Acidiphilium_rubrum_ATCC_35905|2681882064|proteo 321 RLWELTAELVGR 332
+                                                       **********96 PP
+
+>> Dinoroseobacter_shibae|DFL12|WP_012187437  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  603.6   0.1  6.4e-185  6.4e-185       8     317 ..       1     310 []       1     310 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 603.6 bits;  conditional E-value: 6.4e-185
+                LPOR-proteo-16.aln.FFT-NS-i   8 ivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvrafaeef 75 
+                                                ivtGassGvGl+atk+l+drGwhv macrdlakaeaaa++l+l++ ++++++ldlgslasvraf++++
+  Dinoroseobacter_shibae|DFL12|WP_012187437   1 IVTGASSGVGLHATKSLIDRGWHVTMACRDLAKAEAAARSLDLDPGRYALAHLDLGSLASVRAFHANI 68 
+                                                89****************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i  76 ralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkkaeakrlvtlgtvt 143
+                                                ++ +++ldalv+naavy+prl++p rsp+g+eisvatny+ghfllanl+l+ l+ a+++rl+tlgtvt
+  Dinoroseobacter_shibae|DFL12|WP_012187437  69 ARDHDSLDALVCNAAVYKPRLTQPGRSPDGFEISVATNYFGHFLLANLMLPLLEGAPSPRLITLGTVT 136
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 144 anseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsklalmilsrelharyheet 211
+                                                anseefggk+pipapadlgd++gl+agf+apvamidgkpfk+gkaykdskl++m++srelh+r+h++t
+  Dinoroseobacter_shibae|DFL12|WP_012187437 137 ANSEEFGGKVPIPAPADLGDFAGLKAGFRAPVAMIDGKPFKAGKAYKDSKLCTMMMSRELHTRHHART 204
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 212 givfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGervaqvvadpefarsGvhwsw 279
+                                                givfatlypGcvadtplfrd+pkafq+ifpwfqkn+tkGyvsq+l+Gerva+vvadpefa+sGvhwsw
+  Dinoroseobacter_shibae|DFL12|WP_012187437 205 GIVFATLYPGCVADTPLFRDTPKAFQTIFPWFQKNVTKGYVSQALSGERVAMVVADPEFAQSGVHWSW 272
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 280 Gnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                Gnrq+egr+afaq ls+ka+daars++lw+l+a+l+gl
+  Dinoroseobacter_shibae|DFL12|WP_012187437 273 GNRQREGRSAFAQGLSTKATDAARSAELWELTAALTGL 310
+                                                **********************************9986 PP
+
+>> Acidiphilium_angustum|ATCC_35903|WP_029314395  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  603.5   0.1  6.8e-185  6.8e-185       8     316 ..       1     311 [.       1     312 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 603.5 bits;  conditional E-value: 6.8e-185
+                    LPOR-proteo-16.aln.FFT-NS-i   8 ivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvraf 71 
+                                                    ivtGassGvGl+atkalvdrGwhv+macrdlaka++aaa+l+++++s++ le+dlgs++svr+f
+  Acidiphilium_angustum|ATCC_35903|WP_029314395   1 IVTGASSGVGLHATKALVDRGWHVVMACRDLAKAARAAANLDINPASITPLEIDLGSQSSVRRF 64 
+                                                    89************************************************************** PP
+
+                    LPOR-proteo-16.aln.FFT-NS-i  72 aeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkka..ea 133
+                                                    a++f+al k+ldalv+naavylp+lk+parspeg+eisvatn++ghfll++lll++l+++  +a
+  Acidiphilium_angustum|ATCC_35903|WP_029314395  65 AADFAALVKPLDALVCNAAVYLPLLKTPARSPEGFEISVATNHFGHFLLSHLLLPHLQSPgrRA 128
+                                                    **********************************************************998899 PP
+
+                    LPOR-proteo-16.aln.FFT-NS-i 134 krlvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsklalm 197
+                                                    krlvtlgtvtanseefggkipipapa+lg+l+gleagf+apvamidgk+fkpgkaykdskl++m
+  Acidiphilium_angustum|ATCC_35903|WP_029314395 129 KRLVTLGTVTANSEEFGGKIPIPAPANLGALAGLEAGFRAPVAMIDGKKFKPGKAYKDSKLCNM 192
+                                                    **************************************************************** PP
+
+                    LPOR-proteo-16.aln.FFT-NS-i 198 ilsrelharyheetgivfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGerv 261
+                                                    i+sre+h+ryh++tgi+f+tlypGcvadt+lfrdapk+fq+ifpwfqk+itkGyvsq+laG+rv
+  Acidiphilium_angustum|ATCC_35903|WP_029314395 193 IISREFHRRYHQNTGIIFNTLYPGCVADTALFRDAPKLFQTIFPWFQKTITKGYVSQALAGTRV 256
+                                                    **************************************************************** PP
+
+                    LPOR-proteo-16.aln.FFT-NS-i 262 aqvvadpefarsGvhwswGnrqkegreafaqslsakaedaarserlwdlsaklvg 316
+                                                    aqvvad++fa+sGvhwswGnrq ++r+af+q+ls+ a+daar++rlw+l+a+lvg
+  Acidiphilium_angustum|ATCC_35903|WP_029314395 257 AQVVADDAFAQSGVHWSWGNRQLPSRDAFSQPLSSAANDAARAARLWELTAELVG 311
+                                                    ******************************************************8 PP
+
+>> Erythrobacter_sp._SCN_62-14|ODS93018.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  601.4   0.1  3.1e-184  3.1e-184       3     317 ..       5     323 ..       1     324 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 601.4 bits;  conditional E-value: 3.1e-184
+             LPOR-proteo-16.aln.FFT-NS-i   3 teklaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvrafae 73 
+                                             ++++a++tGassGvGl+a+ al++rGwhvimacr+lakaeaaa+e+g+++++r++++ldl+++asvra+ae
+  Erythrobacter_sp._SCN_62-14|ODS93018.1   5 AQPTALITGASSGVGLWAAYALTQRGWHVIMACRNLAKAEAAAREIGIDPAKRTVMHLDLADFASVRALAE 75 
+                                             5699******************************************************************9 PP
+
+             LPOR-proteo-16.aln.FFT-NS-i  74 e....fralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkkaeakrlvtlg 140
+                                             +    ++a++++ldalvlnaavyl r++ep+r+ +gye+svatnylghfllanlll dl+ka+a+rl+tlg
+  Erythrobacter_sp._SCN_62-14|ODS93018.1  76 NtrewLNAQGRTLDALVLNAAVYLLRAEEPQRNGQGYELSVATNYLGHFLLANLLLGDLAKAPAPRLITLG 146
+                                             97777889*************************************************************** PP
+
+             LPOR-proteo-16.aln.FFT-NS-i 141 tvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsklalmilsrelharyheet 211
+                                             tvtanseefggkipipapa+lg+l+g+eagf  p+amidgk+fkpgkaykdsklalm++srelharyh++t
+  Erythrobacter_sp._SCN_62-14|ODS93018.1 147 TVTANSEEFGGKIPIPAPANLGELAGFEAGFLPPIAMIDGKAFKPGKAYKDSKLALMMMSRELHARYHAST 217
+                                             *********************************************************************** PP
+
+             LPOR-proteo-16.aln.FFT-NS-i 212 givfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGervaqvvadpefarsGvhwswGnr 282
+                                             gi+fatlypGcvadtplfr+apkaf++ifpwfqknitkGyvsqpl+Gervaqvvadp+f+rsGvhwswGnr
+  Erythrobacter_sp._SCN_62-14|ODS93018.1 218 GIIFATLYPGCVADTPLFRHAPKAFRTIFPWFQKNITKGYVSQPLSGERVAQVVADPQFTRSGVHWSWGNR 288
+                                             *********************************************************************** PP
+
+             LPOR-proteo-16.aln.FFT-NS-i 283 qkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                             qk+g+eafaq+lsakae+a+rs+rlwdls++lvgl
+  Erythrobacter_sp._SCN_62-14|ODS93018.1 289 QKPGAEAFAQPLSAKAENARRSARLWDLSLRLVGL 323
+                                             *********************************98 PP
+
+>> Gemmatimonas_phototrophica|WP_026848496.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  599.4   0.0  1.2e-183  1.2e-183       1     317 [.       1     320 [.       1     321 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 599.4 bits;  conditional E-value: 1.2e-183
+                LPOR-proteo-16.aln.FFT-NS-i   1 msteklaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasv 68 
+                                                mst++++i+tGassGvGly +k+l++rGwhv+macrdlaka+aaa+ lg++k+sr+++ +dlgs+asv
+  Gemmatimonas_phototrophica|WP_026848496.1   1 MSTAPTCIITGASSGVGLYGAKSLAARGWHVVMACRDLAKATAAADALGIPKASRTLMPIDLGSQASV 68 
+                                                7899**************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i  69 rafaeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkka..eak 134
+                                                raf+e+fra+++aldalv+naavylprl+ep+rspegyeisvatn++ghfllanlll+dl+++  +++
+  Gemmatimonas_phototrophica|WP_026848496.1  69 RAFVEAFRATGRALDALVCNAAVYLPRLTEPMRSPEGYEISVATNHFGHFLLANLLLPDLQRSthASR 136
+                                                **************************************************************976789 PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 135 rlvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsklalmilsre 202
+                                                rl++lgtvtan+eefggkipipapadlg+legleagf ap+am++gk+fkpgkaykdskl++mi  re
+  Gemmatimonas_phototrophica|WP_026848496.1 137 RLIILGTVTANYEEFGGKIPIPAPADLGNLEGLEAGFLAPIAMLNGKAFKPGKAYKDSKLCNMITGRE 204
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 203 lharyheetgivfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGervaqvvadpef 270
+                                                lh+ryh +tgivf+tlypGcvadtplfr++p afq+ifpwfqknitkGyv+q+laG+r+aqvvadp+f
+  Gemmatimonas_phototrophica|WP_026848496.1 205 LHRRYHGQTGIVFNTLYPGCVADTPLFRHTPPAFQRIFPWFQKNITKGYVTQELAGDRLAQVVADPAF 272
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 271 .arsGvhwswGnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                 +rsGvhwswGnrqkegreafaq+l+a+a+d+a  erlw+l+a +vg+
+  Gemmatimonas_phototrophica|WP_026848496.1 273 gSRSGVHWSWGNRQKEGREAFAQQLTARAQDQALGERLWTLTAGCVGM 320
+                                                99********************************************97 PP
+
+>> Sandarakinorhabdus_sp._AAP62|WP_020480449.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  591.5   0.0    3e-181    3e-181       1     317 [.       1     322 [.       1     323 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 591.5 bits;  conditional E-value: 3e-181
+                  LPOR-proteo-16.aln.FFT-NS-i   1 msteklaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgsla 66 
+                                                  ms+++++i+tGassGvGl+a+++l++rGw vimacrdlakaeaaa+e+g++++sr+i+ +dlg++a
+  Sandarakinorhabdus_sp._AAP62|WP_020480449.1   1 MSIQPVVIITGASSGVGLWAARSLATRGWLVIMACRDLAKAEAAATEIGIPAESRRIMPIDLGDQA 66 
+                                                  7899************************************************************** PP
+
+                  LPOR-proteo-16.aln.FFT-NS-i  67 svrafaeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkka. 131
+                                                  svr+fa+ef+a++ +ldal+l+aavylprl++p+rs++gyeisvatny+ghflla+ll++dlk+a 
+  Sandarakinorhabdus_sp._AAP62|WP_020480449.1  67 SVRKFADEFHATGLPLDALLLTAAVYLPRLEAPMRSAQGYEISVATNYFGHFLLAHLLIDDLKQAk 132
+                                                  ****************************************************************98 PP
+
+                  LPOR-proteo-16.aln.FFT-NS-i 132 ....eakrlvtlgtvtanseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsk 193
+                                                      + +rl+tlgtvtanseefggkipipapadlgdl+gl+agf+ap+amidgkpfkpgkaykdsk
+  Sandarakinorhabdus_sp._AAP62|WP_020480449.1 133 grlaSPPRLITLGTVTANSEEFGGKIPIPAPADLGDLAGLAAGFQAPIAMIDGKPFKPGKAYKDSK 198
+                                                  8887889*********************************************************** PP
+
+                  LPOR-proteo-16.aln.FFT-NS-i 194 lalmilsrelharyheetgivfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGe 259
+                                                  la+mi+sre+++r+  +tgivf+tlypGcva+t lfr++p afqkifpwfqknitkGyvsqplaGe
+  Sandarakinorhabdus_sp._AAP62|WP_020480449.1 199 LACMIMSREFQKRW-GSTGIVFNTLYPGCVAETLLFRHTPPAFQKIFPWFQKNITKGYVSQPLAGE 263
+                                                  **************.99************************************************* PP
+
+                  LPOR-proteo-16.aln.FFT-NS-i 260 rvaqvvadpef.arsGvhwswGnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                  r+aqv+adp+f ++sGvhwswGnrqkegr++faq+ls++++++ar+erlwdl++k+vgl
+  Sandarakinorhabdus_sp._AAP62|WP_020480449.1 264 RTAQVIADPAFaSQSGVHWSWGNRQKEGRMPFAQPLSTRGTNEARNERLWDLTMKAVGL 322
+                                                  ***********889*******************************************98 PP
+
+>> Metagenomic-POR|JCVI_readid_1095522100565  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  591.2   0.0  3.9e-181  3.9e-181       8     317 ..       1     310 []       1     310 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 591.2 bits;  conditional E-value: 3.9e-181
+                LPOR-proteo-16.aln.FFT-NS-i   8 ivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvrafaeef 75 
+                                                ivtGassGvGlyat+al+ rGw+vimacrdl+k+ +a+ael++++d++++l++dlgslasv+af ++f
+  Metagenomic-POR|JCVI_readid_1095522100565   1 IVTGASSGVGLYATQALTGRGWRVIMACRDLDKTGRAVAELAIPEDQIDVLHIDLGSLASVHAFLKTF 68 
+                                                89****************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i  76 ralekaldalvlnaavylprlkeparspegyeisvatnylghfllanllledlkkaeakrlvtlgtvt 143
+                                                +a+e++ldalv+naavy+p+lkeparspegye+svatn++ghf+l+  ll++l+++e++rlvtlgtvt
+  Metagenomic-POR|JCVI_readid_1095522100565  69 KAMESPLDALVCNAAVYRPLLKEPARSPEGYELSVATNHFGHFVLMLDLLPKLMMSEHARLVTLGTVT 136
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 144 anseefggkipipapadlgdlegleagfkapvamidgkpfkpgkaykdsklalmilsrelharyheet 211
+                                                anseefgg+ipipapadlgdlegleagfk+pvami+g pfk+gkaykdskl++mi+srelh+ryh++t
+  Metagenomic-POR|JCVI_readid_1095522100565 137 ANSEEFGGRIPIPAPADLGDLEGLEAGFKDPVAMINGGPFKAGKAYKDSKLCNMIISRELHRRYHDST 204
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 212 givfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqplaGervaqvvadpefarsGvhwsw 279
+                                                g+vf+tlypGcvadt+lfr +p +fqk+fpwfqknitkGyv+q+laGervaqvvadpef+ sGvhwsw
+  Metagenomic-POR|JCVI_readid_1095522100565 205 GVVFSTLYPGCVADTDLFRATPGVFQKVFPWFQKNITKGYVTQALAGERVAQVVADPEFNVSGVHWSW 272
+                                                ******************************************************************** PP
+
+                LPOR-proteo-16.aln.FFT-NS-i 280 Gnrqkegreafaqslsakaedaarserlwdlsaklvgl 317
+                                                Gnrq++greaf+q+lsa+ae++ar+erlwdls++l+g+
+  Metagenomic-POR|JCVI_readid_1095522100565 273 GNRQRDGREAFHQKLSAQAENQARAERLWDLSLALCGV 310
+                                                **********************************9985 PP
+
+>> Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  586.9   0.0  7.7e-180  7.7e-180       9     317 ..       1     314 []       1     314 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 586.9 bits;  conditional E-value: 7.7e-180
+                           LPOR-proteo-16.aln.FFT-NS-i   9 vtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgsl 65 
+                                                           +tGassGvGl+a+k+l+drGw vimacrdlakaeaaaae+g+++dsr+il++dlg++
+  Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993   1 MTGASSGVGLWAAKSLADRGWLVIMACRDLAKAEAAAAEVGIPADSRRILHIDLGDQ 57 
+                                                           69******************************************************* PP
+
+                           LPOR-proteo-16.aln.FFT-NS-i  66 asvrafaeefralekaldalvlnaavylprlkeparspegyeisvatnylghfllan 122
+                                                           asvr+fa+ef+ l+ +ldal+lnaavylprl++p+rspegyeisvatny+ghflla+
+  Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993  58 ASVRRFADEFHGLGLPLDALLLNAAVYLPRLEAPMRSPEGYEISVATNYFGHFLLAH 114
+                                                           ********************************************************* PP
+
+                           LPOR-proteo-16.aln.FFT-NS-i 123 llledlkka.....eakrlvtlgtvtanseefggkipipapadlgdlegleagfkap 174
+                                                           lll+dlkka     + +rl+tlgtvtanseefggk+pipapa+lgdl+gl+agfkap
+  Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993 115 LLLDDLKKAkgrlpSPPRLITLGTVTANSEEFGGKVPIPAPAELGDLAGLAAGFKAP 171
+                                                           ********988887889**************************************** PP
+
+                           LPOR-proteo-16.aln.FFT-NS-i 175 vamidgkpfkpgkaykdsklalmilsrelharyheetgivfatlypGcvadtplfrd 231
+                                                           +amidgkpfkpgkaykdskla+mi++re+h+r+  +tgivf+tlypGcvadt+lfrd
+  Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993 172 IAMIDGKPFKPGKAYKDSKLACMIMNREFHKRW-GDTGIVFNTLYPGCVADTALFRD 227
+                                                           *********************************.89********************* PP
+
+                           LPOR-proteo-16.aln.FFT-NS-i 232 apkafqkifpwfqknitkGyvsqplaGervaqvvadpef.arsGvhwswGnrqkegr 287
+                                                           +p+af++ifpwfqknitkGyvsqplaG+r+aqv+adp+f ++sGvhwswGnrqk+gr
+  Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993 228 TPQAFRTIFPWFQKNITKGYVSQPLAGDRTAQVIADPAFaSQSGVHWSWGNRQKQGR 284
+                                                           ***************************************889*************** PP
+
+                           LPOR-proteo-16.aln.FFT-NS-i 288 eafaqslsakaedaarserlwdlsaklvgl 317
+                                                           ++faq+lsa+++++ar+erlwdl++k+vgl
+  Sandarakinorhabdus_limnophila|DSM_17366|WP_022680993 285 MPFAQPLSARGTNEARNERLWDLTLKAVGL 314
+                                                           ****************************97 PP
+
+>> Porphyrobacter_sanguineus_DSM_11032|2583133031|proteo  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.5   1.1   1.7e-17   1.7e-17       3      38 ..       5      40 ..       1      40 [. 0.92
+   2 !  220.5   0.3   2.5e-68   2.5e-68     201     318 .]      38     161 ..      38     161 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 53.5 bits;  conditional E-value: 1.7e-17
+                            LPOR-proteo-16.aln.FFT-NS-i  3 teklaivtGassGvGlyatkalvdrGwhvimacrdl 38
+                                                           +ek+++vtGassGvGl++++al++rGwhvimacr+l
+  Porphyrobacter_sanguineus_DSM_11032|2583133031|proteo  5 SEKTTLVTGASSGVGLWTARALAARGWHVIMACREL 40
+                                                           4699******************************96 PP
+
+  == domain 2  score: 220.5 bits;  conditional E-value: 2.5e-68
+                            LPOR-proteo-16.aln.FFT-NS-i 201 relharyheetgivfatlypGcvadtplfrdapkafqkifpwfqknitkGyvsqpl 256
+                                                            relhar+h++t+ ++at+ypGcvadtplf++ap+afq+ifpwfqkn+t+Gyvsqpl
+  Porphyrobacter_sanguineus_DSM_11032|2583133031|proteo  38 RELHARFHADTRSICATVYPGCVADTPLFHHAPRAFQSIFPWFQKNVTRGYVSQPL 93 
+                                                            9******************************************************* PP
+
+                            LPOR-proteo-16.aln.FFT-NS-i 257 aGervaqvvadpefarsGvhwswGnrqkegreafaqslsakaedaa......rser 306
+                                                            +Gervaqv+adpef++sGvhwswGnrqk++++afaq+lsakae++a      rs+r
+  Porphyrobacter_sanguineus_DSM_11032|2583133031|proteo  94 SGERVAQVIADPEFTTSGVHWSWGNRQKPHARAFAQPLSAKAEKSAkaenpqRSSR 149
+                                                            ***************************************999888767777799** PP
+
+                            LPOR-proteo-16.aln.FFT-NS-i 307 lwdlsaklvgle 318
+                                                            lwdls +lvgle
+  Porphyrobacter_sanguineus_DSM_11032|2583133031|proteo 150 LWDLSGRLVGLE 161
+                                                            **********85 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (318 nodes)
+Target sequences:                           16  (4977 residues searched)
+Passed MSV filter:                        16  (1); expected 0.3 (0.02)
+Passed bias filter:                       16  (1); expected 0.3 (0.02)
+Passed Vit filter:                        16  (1); expected 0.0 (0.001)
+Passed Fwd filter:                        16  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 16  [actual number of targets]
+Domain search space  (domZ):              16  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.18
+# Mc/sec: 8.79
+//
+[ok]

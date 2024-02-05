@@ -1,0 +1,802 @@
+IQ-TREE version 1.5.3 for Linux 64-bit built Jan 15 2017
+Copyright (c) 2011-2016 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    franklin (AVX, 15 GB RAM)
+Command: iqtree -s Aln-LPOR-bacteria-only-133+SDR-oxi-trimmed.fa -m TEST
+Seed:    580427 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan 16 13:25:55 2017
+Kernel:  AVX
+
+NOTE: Consider using the multicore version because your CPU has 4 cores!
+
+Reading alignment file Aln-LPOR-bacteria-only-133+SDR-oxi-trimmed.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 215 sequences with 446 columns and 442 patterns (377 informative sites, 32 constant sites)
+WARNING: Some sequence names are changed as follows:
+NEW_WP_033838537.1/1-315 -> NEW_WP_033838537.1_1-315
+NEW_CUH81468.1/1-320 -> NEW_CUH81468.1_1-320
+NEW_WP_058291633.1/1-298 -> NEW_WP_058291633.1_1-298
+NEW_CUI85963.1/1-319 -> NEW_CUI85963.1_1-319
+NEW_WP_068087709.1/1-322 -> NEW_WP_068087709.1_1-322
+NEW_WP_066812211.1/1-321 -> NEW_WP_066812211.1_1-321
+NEW_WP_007705260.1/1-322 -> NEW_WP_007705260.1_1-322
+NEW_WP_021691523.1/1-318 -> NEW_WP_021691523.1_1-318
+NEW_WP_062013466.1/1-322 -> NEW_WP_062013466.1_1-322
+NEW_WP_020050092.1/1-322 -> NEW_WP_020050092.1_1-322
+NEW_WP_037103106.1/1-322 -> NEW_WP_037103106.1_1-322
+NEW_WP_037072625.1/1-322 -> NEW_WP_037072625.1_1-322
+NEW_EJJ25060.1/7-328 -> NEW_EJJ25060.1_7-328
+NEW_WP_037455053.1/1-310 -> NEW_WP_037455053.1_1-310
+NEW_WP_067461893.1/1-320 -> NEW_WP_067461893.1_1-320
+NEW_WP_067673946.1/1-320 -> NEW_WP_067673946.1_1-320
+NEW_WP_067499215.1/1-320 -> NEW_WP_067499215.1_1-320
+NEW_WP_044460365.1/1-281 -> NEW_WP_044460365.1_1-281
+NEW_WP_034495512.1/1-281 -> NEW_WP_034495512.1_1-281
+NEW_WP_063947453.1/1-281 -> NEW_WP_063947453.1_1-281
+NEW_KIV60825.1/1-307 -> NEW_KIV60825.1_1-307
+NEW_WP_066614853.1/4-309 -> NEW_WP_066614853.1_4-309
+NEW_WP_043970354.1/1-291 -> NEW_WP_043970354.1_1-291
+NEW_WP_026438774.1/1-308 -> NEW_WP_026438774.1_1-308
+NEW_WP_008493100.1/1-308 -> NEW_WP_008493100.1_1-308
+NEW_WP_046642033.1/1-327 -> NEW_WP_046642033.1_1-327
+NEW_WP_025591332.1/1-327 -> NEW_WP_025591332.1_1-327
+NEW_WP_052212827.1/1-326 -> NEW_WP_052212827.1_1-326
+NEW_WP_052224486.1/1-327 -> NEW_WP_052224486.1_1-327
+NEW_WP_025418312.1/1-327 -> NEW_WP_025418312.1_1-327
+NEW_AHG48966.1/11-337 -> NEW_AHG48966.1_11-337
+NEW_WP_069610514.1/1-327 -> NEW_WP_069610514.1_1-327
+NEW_WP_040141254.1/1-327 -> NEW_WP_040141254.1_1-327
+NEW_WP_051336481.1/1-327 -> NEW_WP_051336481.1_1-327
+NEW_WP_003533717.1/1-327 -> NEW_WP_003533717.1_1-327
+NEW_ODT69603.1/1-306 -> NEW_ODT69603.1_1-306
+NEW_WP_035098662.1/1-307 -> NEW_WP_035098662.1_1-307
+NEW_WP_026792296.1/1-303 -> NEW_WP_026792296.1_1-303
+NEW_WP_046796773.1/1-303 -> NEW_WP_046796773.1_1-303
+NEW_WP_046144787.1/1-305 -> NEW_WP_046144787.1_1-305
+NEW_WP_039905611.1/1-304 -> NEW_WP_039905611.1_1-304
+NEW_GAA09995.1/1-286 -> NEW_GAA09995.1_1-286
+NEW_WP_011647215.1/1-310 -> NEW_WP_011647215.1_1-310
+NEW_WP_043361268.1/1-325 -> NEW_WP_043361268.1_1-325
+NEW_WP_061883560.1/1-304 -> NEW_WP_061883560.1_1-304
+NEW_WP_041953450.1/1-304 -> NEW_WP_041953450.1_1-304
+NEW_WP_066922337.1/1-304 -> NEW_WP_066922337.1_1-304
+NEW_WP_056428342.1/1-304 -> NEW_WP_056428342.1_1-304
+NEW_WP_056453370.1/1-304 -> NEW_WP_056453370.1_1-304
+NEW_WP_056180727.1/1-304 -> NEW_WP_056180727.1_1-304
+NEW_WP_043758568.1/1-304 -> NEW_WP_043758568.1_1-304
+NEW_AIQ91419.1/1-286 -> NEW_AIQ91419.1_1-286
+NEW_WP_025395837.1/1-304 -> NEW_WP_025395837.1_1-304
+NEW_WP_013079543.1/1-304 -> NEW_WP_013079543.1_1-304
+NEW_WP_061931873.1/1-323 -> NEW_WP_061931873.1_1-323
+NEW_WP_060606503.1/1-317 -> NEW_WP_060606503.1_1-317
+NEW_WP_063693486.1/1-312 -> NEW_WP_063693486.1_1-312
+NEW_WP_039154502.1/1-312 -> NEW_WP_039154502.1_1-312
+NEW_WP_014491494.1/1-312 -> NEW_WP_014491494.1_1-312
+NEW_WP_038950686.1/1-312 -> NEW_WP_038950686.1_1-312
+NEW_WP_046171371.1/1-312 -> NEW_WP_046171371.1_1-312
+NEW_WP_023459641.1/1-328 -> NEW_WP_023459641.1_1-328
+NEW_WP_067683577.1/1-304 -> NEW_WP_067683577.1_1-304
+NEW_WP_047002605.1/1-304 -> NEW_WP_047002605.1_1-304
+NEW_WP_068071815.1/1-301 -> NEW_WP_068071815.1_1-301
+NEW_WP_030541087.1/1-303 -> NEW_WP_030541087.1_1-303
+NEW_WP_067539380.1/1-304 -> NEW_WP_067539380.1_1-304
+NEW_WP_021689033.1/1-302 -> NEW_WP_021689033.1_1-302
+NEW_WP_066765787.1/1-303 -> NEW_WP_066765787.1_1-303
+NEW_WP_063298537.1/1-311 -> NEW_WP_063298537.1_1-311
+NEW_KZL23304.1/1-311 -> NEW_KZL23304.1_1-311
+NEW_WP_063301006.1/5-315 -> NEW_WP_063301006.1_5-315
+NEW_WP_063319656.1/5-315 -> NEW_WP_063319656.1_5-315
+NEW_KZK79861.1/1-311 -> NEW_KZK79861.1_1-311
+NEW_WP_063308207.1/5-315 -> NEW_WP_063308207.1_5-315
+NEW_KZK76540.1/1-311 -> NEW_KZK76540.1_1-311
+NEW_KZL04102.1/1-311 -> NEW_KZL04102.1_1-311
+NEW_WP_063290269.1/5-315 -> NEW_WP_063290269.1_5-315
+NEW_KZK88317.1/1-311 -> NEW_KZK88317.1_1-311
+NEW_WP_063302798.1/5-315 -> NEW_WP_063302798.1_5-315
+NEW_WP_014287003.1/5-316 -> NEW_WP_014287003.1_5-316
+NEW_WP_043869673.1/1-327 -> NEW_WP_043869673.1_1-327
+actinobacteria_Saccharopolyspora_erythraea/1-295 -> actinobacteria_Saccharopolyspora_erythraea_1-295
+actinobacteria_Actinoplanes_sp._N902-109-SDR/1-297 -> actinobacteria_Actinoplanes_sp._N902-109-SDR_1-297
+actinobacteria_Microlunatus_phosphovorus-SDR/1-299 -> actinobacteria_Microlunatus_phosphovorus-SDR_1-299
+actinobacteria_Isoptericola_variabilis_225-SDR/1-297 -> actinobacteria_Isoptericola_variabilis_225-SDR_1-297
+actinobacteria_Mycobacterium_rhodesiae-SDR/1-292 -> actinobacteria_Mycobacterium_rhodesiae-SDR_1-292
+cyanobacteria_Fremyella_diplosiphon_Fd33/1-320 -> cyanobacteria_Fremyella_diplosiphon_Fd33_1-320
+cyanobacteria_Chlorogloeopsis_fritschii_PCC_9212/1-320 -> cyanobacteria_Chlorogloeopsis_fritschii_PCC_9212_1-320
+cyanobacteria_cyanobacterium_PCC_7702/1-320 -> cyanobacteria_cyanobacterium_PCC_7702_1-320
+cyanobacteria_Tolypothrix_campylonemoides/1-320 -> cyanobacteria_Tolypothrix_campylonemoides_1-320
+cyanobacteria_Coleofasciculus_chthonoplastes/1-321 -> cyanobacteria_Coleofasciculus_chthonoplastes_1-321
+cyanobacteria_Fischerella_muscicola/1-320 -> cyanobacteria_Fischerella_muscicola_1-320
+Hapalosiphon_sp._MRB220_WP_053457067.1/1-320 -> Hapalosiphon_sp._MRB220_WP_053457067.1_1-320
+cyanobacteria_Mastigocladus_laminosus_UU774/1-133 -> cyanobacteria_Mastigocladus_laminosus_UU774_1-133
+cyanobacteria_Fischerella_sp._JSC-11/14-333 -> cyanobacteria_Fischerella_sp._JSC-11_14-333
+cyanobacteria_Mastigocladopsis_repens_PCC_10914/1-320 -> cyanobacteria_Mastigocladopsis_repens_PCC_10914_1-320
+cyanobacteria_Anabaena_variabilis_ATCC_29413/1-329 -> cyanobacteria_Anabaena_variabilis_ATCC_29413_1-329
+cyanobacteria_Nostoc_sp._PCC_7120/1-310 -> cyanobacteria_Nostoc_sp._PCC_7120_1-310
+cyanobacteria_Nostoc_sp._PCC_7107/1-320 -> cyanobacteria_Nostoc_sp._PCC_7107_1-320
+cyanobacteria_Gloeocapsa_sp._PCC_7428/1-320 -> cyanobacteria_Gloeocapsa_sp._PCC_7428_1-320
+Planktothricoides_sp._SR001_WP_054464488.1/1-320 -> Planktothricoides_sp._SR001_WP_054464488.1_1-320
+cyanobacteria_Oscillatoria_acuminata/1-320 -> cyanobacteria_Oscillatoria_acuminata_1-320
+cyanobacteria_Crinalium_epipsammum/1-320 -> cyanobacteria_Crinalium_epipsammum_1-320
+cyanobacteria_Calothrix_sp._336_3_WP_035150165.1/1-319 -> cyanobacteria_Calothrix_sp._336_3_WP_035150165.1_1-319
+cyanobacteria_Nostoc_punctiforme/1-309 -> cyanobacteria_Nostoc_punctiforme_1-309
+cyanobacteria_Chroococcidiopsis_thermalis_PCC_7203/1-322 -> cyanobacteria_Chroococcidiopsis_thermalis_PCC_7203_1-322
+cyanobacteria_Scytonema_millei/1-322 -> cyanobacteria_Scytonema_millei_1-322
+cyanobacteria_Oscillatoriales_cyanobacterium_JSC-12/1-320 -> cyanobacteria_Oscillatoriales_cyanobacterium_JSC-12_1-320
+cyanobacteria_Pleurocapsa_minor/1-320 -> cyanobacteria_Pleurocapsa_minor_1-320
+cyanobacteria_Arthrospira_maxima_CS-328/1-321 -> cyanobacteria_Arthrospira_maxima_CS-328_1-321
+cyanobacteria_Arthrospira_platensis/1-321 -> cyanobacteria_Arthrospira_platensis_1-321
+cyanobacteria_Neosynechococcus_sphagnicola/1-320 -> cyanobacteria_Neosynechococcus_sphagnicola_1-320
+cyanobacteria_Microcoleus_sp._PCC_7113/1-320 -> cyanobacteria_Microcoleus_sp._PCC_7113_1-320
+cyanobacteria_Spirulina_subsalsa/1-324 -> cyanobacteria_Spirulina_subsalsa_1-324
+Phormidium_sp._OSCR_KPQ38664.1/1-321 -> Phormidium_sp._OSCR_KPQ38664.1_1-321
+cyanobacteria_Oscillatoria_sp._PCC_10802/1-321 -> cyanobacteria_Oscillatoria_sp._PCC_10802_1-321
+cyanobacteria_Crocosphaera_watsonii/1-321 -> cyanobacteria_Crocosphaera_watsonii_1-321
+cyanobacteria_Cyanothece_sp._ATCC/1-321 -> cyanobacteria_Cyanothece_sp._ATCC_1-321
+cyanobacteria_Microcoleus_vaginatus_FGP-2/1-335 -> cyanobacteria_Microcoleus_vaginatus_FGP-2_1-335
+cyanobacteria_Oscillatoria_nigro-viridis/1-335 -> cyanobacteria_Oscillatoria_nigro-viridis_1-335
+cyanobacteria_Microcystis_sp._T1-4/1-320 -> cyanobacteria_Microcystis_sp._T1-4_1-320
+cyanobacteria_Microcystis_aeruginosa/1-320 -> cyanobacteria_Microcystis_aeruginosa_1-320
+cyanobacteria_Geitlerinema_sp._PCC_7105/1-320 -> cyanobacteria_Geitlerinema_sp._PCC_7105_1-320
+cyanobacteria_Pseudanabaena_biceps/1-320 -> cyanobacteria_Pseudanabaena_biceps_1-320
+cyanobacteria_Anabaena_sp._90/1-331 -> cyanobacteria_Anabaena_sp._90_1-331
+cyanobacteria_Aphanizomenon_flos-aquae/1-331 -> cyanobacteria_Aphanizomenon_flos-aquae_1-331
+cyanobacteria_Dolichospermum_circinale/1-331 -> cyanobacteria_Dolichospermum_circinale_1-331
+cyanobacteria_Planktothrix_agardhii_NIVA-CYA_126/8_KEI67287.1/1-319 -> cyanobacteria_Planktothrix_agardhii_NIVA-CYA_126_8_KEI67287.1_1-319
+cyanobacteria_Cyanothece_sp._PCC_7424/1-325 -> cyanobacteria_Cyanothece_sp._PCC_7424_1-325
+cyanobacteria_Cylindrospermopsis_raciborskii_CS-505/32-350 -> cyanobacteria_Cylindrospermopsis_raciborskii_CS-505_32-350
+cyanobacteria_Raphidiopsis_brookii_D9/1-319 -> cyanobacteria_Raphidiopsis_brookii_D9_1-319
+cyanobacteria_Nodularia_spumigena/1-320 -> cyanobacteria_Nodularia_spumigena_1-320
+cyanobacteria_Cylindrospermum_stagnale_PCC_7417/1-321 -> cyanobacteria_Cylindrospermum_stagnale_PCC_7417_1-321
+cyanobacteria_Anabaena_cylindrica_PCC_7122/1-321 -> cyanobacteria_Anabaena_cylindrica_PCC_7122_1-321
+cyanobacteria_Trichormus_azollae/1-321 -> cyanobacteria_Trichormus_azollae_1-321
+cyanobacteria_Calothrix_sp._PCC_7507/1-321 -> cyanobacteria_Calothrix_sp._PCC_7507_1-321
+cyanobacteria_Microchaete_sp._PCC_7126/1-321 -> cyanobacteria_Microchaete_sp._PCC_7126_1-321
+cyanobacteria_Scytonema_hofmanni/1-324 -> cyanobacteria_Scytonema_hofmanni_1-324
+cyanobacteria_Tolypothrix_bouteillei_VB521301/1-321 -> cyanobacteria_Tolypothrix_bouteillei_VB521301_1-321
+cyanobacteria_Lyngbya_sp._PCC_8106/1-322 -> cyanobacteria_Lyngbya_sp._PCC_8106_1-322
+cyanobacteria_Lyngbya_aestuarii/1-322 -> cyanobacteria_Lyngbya_aestuarii_1-322
+cyanobacteria_Limnoraphis_robusta_CS-951/1-322 -> cyanobacteria_Limnoraphis_robusta_CS-951_1-322
+cyanobacteria_Calothrix_parietina/1-322 -> cyanobacteria_Calothrix_parietina_1-322
+cyanobacteria_Hassallia_byssoidea/1-323 -> cyanobacteria_Hassallia_byssoidea_1-323
+cyanobacteria_Scytonema_tolypothrichoides/1-322 -> cyanobacteria_Scytonema_tolypothrichoides_1-322
+cyanobacteria_Rivularia_sp._PCC_7116/1-334 -> cyanobacteria_Rivularia_sp._PCC_7116_1-334
+cyanobacteria_Synechocystis_sp._PCC_7509/1-324 -> cyanobacteria_Synechocystis_sp._PCC_7509_1-324
+cyanobacteria_Trichodesmium_erythraeum/1-323 -> cyanobacteria_Trichodesmium_erythraeum_1-323
+cyanobacteria_Pseudanabaena_sp._PCC_6802/1-322 -> cyanobacteria_Pseudanabaena_sp._PCC_6802_1-322
+cyanobacteria_Moorea_producens_3L/1-323 -> cyanobacteria_Moorea_producens_3L_1-323
+cyanobacteria_Cyanobacterium_aponinum/1-322 -> cyanobacteria_Cyanobacterium_aponinum_1-322
+cyanobacteria_Geminocystis_herdmanii/1-322 -> cyanobacteria_Geminocystis_herdmanii_1-322
+cyanobacteria_Geminocystis_sp._NIES-3709/1-322 -> cyanobacteria_Geminocystis_sp._NIES-3709_1-322
+cyanobacteria_Geminocystis_sp._NIES-3708/1-322 -> cyanobacteria_Geminocystis_sp._NIES-3708_1-322
+cyanobacteria_Cyanobacterium_stanieri_PCC_7202/1-323 -> cyanobacteria_Cyanobacterium_stanieri_PCC_7202_1-323
+cyanobacteria_filamentous_cyanobacterium_ESFC-1/1-322 -> cyanobacteria_filamentous_cyanobacterium_ESFC-1_1-322
+cyanobacteria_Synechococcus_elongatus_PCC_6301/1-321 -> cyanobacteria_Synechococcus_elongatus_PCC_6301_1-321
+cyanobacteria_Synechococcus_elongatus_PCC_7942/1-312 -> cyanobacteria_Synechococcus_elongatus_PCC_7942_1-312
+cyanobacteria_Calothrix_sp._PCC_7103/1-322 -> cyanobacteria_Calothrix_sp._PCC_7103_1-322
+cyanobacteria_Geitlerinema_sp._PCC_7407/1-322 -> cyanobacteria_Geitlerinema_sp._PCC_7407_1-322
+cyanobacteria_Leptolyngbya_boryana/1-312 -> cyanobacteria_Leptolyngbya_boryana_1-312
+cyanobacteria_Chamaesiphon_minutus_PCC_6605/1-316 -> cyanobacteria_Chamaesiphon_minutus_PCC_6605_1-316
+cyanobacteria_Gloeocapsa_sp._PCC_73106/1-331 -> cyanobacteria_Gloeocapsa_sp._PCC_73106_1-331
+cyanobacteria_Leptolyngbya_sp._Heron_Island_J/1-320 -> cyanobacteria_Leptolyngbya_sp._Heron_Island_J_1-320
+cyanobacteria_Leptolyngbya_sp._PCC_7375/1-320 -> cyanobacteria_Leptolyngbya_sp._PCC_7375_1-320
+cyanobacteria_Myxosarcina_sp._GI1/1-320 -> cyanobacteria_Myxosarcina_sp._GI1_1-320
+cyanobacteria_Pleurocapsa_sp._PCC_7319/1-320 -> cyanobacteria_Pleurocapsa_sp._PCC_7319_1-320
+cyanobacteria_Prochlorothrix_hollandica/1-324 -> cyanobacteria_Prochlorothrix_hollandica_1-324
+cyanobacteria_Nodosilinea_nodulosa/1-334 -> cyanobacteria_Nodosilinea_nodulosa_1-334
+cyanobacteria_Stanieria_cyanosphaera/1-326 -> cyanobacteria_Stanieria_cyanosphaera_1-326
+cyanobacteria_Xenococcus_sp._PCC_7305/1-326 -> cyanobacteria_Xenococcus_sp._PCC_7305_1-326
+cyanobacteria_Thermosynechococcus_sp._NK55a/1-322 -> cyanobacteria_Thermosynechococcus_sp._NK55a_1-322
+cyanobacteria_Thermosynechococcus_elongatus_BP-1/1-312 -> cyanobacteria_Thermosynechococcus_elongatus_BP-1_1-312
+cyanobacteria_Synechocystis_sp._PCC_6803/1-312 -> cyanobacteria_Synechocystis_sp._PCC_6803_1-312
+cyanobacteria_Aphanocapsa_montana_BDHKU210001/1-327 -> cyanobacteria_Aphanocapsa_montana_BDHKU210001_1-327
+cyanobacteria_Lyngbya_confervoides_BDU141951/1-327 -> cyanobacteria_Lyngbya_confervoides_BDU141951_1-327
+cyanobacteria_Dactylococcopsis_salina/1-323 -> cyanobacteria_Dactylococcopsis_salina_1-323
+cyanobacteria_Halothece_sp._PCC_7418/1-323 -> cyanobacteria_Halothece_sp._PCC_7418_1-323
+cyanobacteria_Acaryochloris_marina/1-336 -> cyanobacteria_Acaryochloris_marina_1-336
+cyanobacteria_Acaryochloris_sp._CCMEE_5410/1-336 -> cyanobacteria_Acaryochloris_sp._CCMEE_5410_1-336
+cyanobacteria_Richelia_intracellularis/1-303 -> cyanobacteria_Richelia_intracellularis_1-303
+Phormidesmis_priestleyi_Ana_KPQ35081.1/24-345 -> Phormidesmis_priestleyi_Ana_KPQ35081.1_24-345
+cyanobacteria_Rubidibacter_lacunae/1-327 -> cyanobacteria_Rubidibacter_lacunae_1-327
+cyanobacteria_Pseudanabaena_sp._PCC_7367/1-321 -> cyanobacteria_Pseudanabaena_sp._PCC_7367_1-321
+cyanobacteria_Gloeobacter_violaceus_PCC_7421/1-311 -> cyanobacteria_Gloeobacter_violaceus_PCC_7421_1-311
+proteobacteria_Dinoroseobacter_shibae/1-310 -> proteobacteria_Dinoroseobacter_shibae_1-310
+proteobacteria_Loktanella_vestfoldensis/1-310 -> proteobacteria_Loktanella_vestfoldensis_1-310
+Sphingomonadales_sp._genome_bin_49_Ga0077557_2624442664_proteo/1-332 -> Sphingomonadales_sp._genome_bin_49_Ga0077557_2624442664_proteo_1-332
+proteobacteria_Sulfitobacter_guttiformis/1-310 -> proteobacteria_Sulfitobacter_guttiformis_1-310
+Loktanella_fryxellensis_DSM_16213_2623288000_proteo/1-326 -> Loktanella_fryxellensis_DSM_16213_2623288000_proteo_1-326
+proteobacteria_Erythrobacter_litoralis/1-310 -> proteobacteria_Erythrobacter_litoralis_1-310
+Erythrobacteraceae_bacterium_HL-111_KPP91129.1/1-327 -> Erythrobacteraceae_bacterium_HL-111_KPP91129.1_1-327
+Porphyrobacter_dokdonensis_WP_068863292.1/1-332 -> Porphyrobacter_dokdonensis_WP_068863292.1_1-332
+Erythrobacter_sp._SCN_62-14_ODS93018.1/1-333 -> Erythrobacter_sp._SCN_62-14_ODS93018.1_1-333
+proteobacteria_Acidiphilium_angustum/1-312 -> proteobacteria_Acidiphilium_angustum_1-312
+Acidiphilium_rubrum_ATCC_35905_2681882064_proteo/12-337 -> Acidiphilium_rubrum_ATCC_35905_2681882064_proteo_12-337
+Porphyrobacter_sanguineus_DSM_11032_2583133031_proteo/1-169 -> Porphyrobacter_sanguineus_DSM_11032_2583133031_proteo_1-169
+proteobacteria_Metagenomic-POR/1-310 -> proteobacteria_Metagenomic-POR_1-310
+proteobacteria_Sandarakinorhabdus_limnophila/1-314 -> proteobacteria_Sandarakinorhabdus_limnophila_1-314
+Sandarakinorhabdus_sp._AAP62_WP_020480449.1/1-323 -> Sandarakinorhabdus_sp._AAP62_WP_020480449.1_1-323
+Gemmatimonas_phototrophica_WP_026848496.1/1-322 -> Gemmatimonas_phototrophica_WP_026848496.1_1-322
+cyanobacteria_Cyanobium_sp._PCC_7001/1-329 -> cyanobacteria_Cyanobium_sp._PCC_7001_1-329
+cyanobacteria_uncultured_marine_type-A_Synechococcus_5B2/1-316 -> cyanobacteria_uncultured_marine_type-A_Synechococcus_5B2_1-316
+cyanobacteria_uncultured_marine_type-A_Synechococcus_4O4/1-316 -> cyanobacteria_uncultured_marine_type-A_Synechococcus_4O4_1-316
+cyanobacteria_Cyanobium_gracile_PCC_6307/1-341 -> cyanobacteria_Cyanobium_gracile_PCC_6307_1-341
+cyanobacteria_Cyanobium_sp._CACIAM_14/1-339 -> cyanobacteria_Cyanobium_sp._CACIAM_14_1-339
+cyanobacteria_Candidatus_Synechococcus_spongiarum/1-325 -> cyanobacteria_Candidatus_Synechococcus_spongiarum_1-325
+cyanobacteria_Synechococcus_sp._CC9311/1-318 -> cyanobacteria_Synechococcus_sp._CC9311_1-318
+cyanobacteria_Synechococcus_sp._WH_7803/1-315 -> cyanobacteria_Synechococcus_sp._WH_7803_1-315
+cyanobacteria_Synechococcus_sp._CC9902/1-307 -> cyanobacteria_Synechococcus_sp._CC9902_1-307
+cyanobacteria_Synechococcus_sp._WH_8102/1-304 -> cyanobacteria_Synechococcus_sp._WH_8102_1-304
+cyanobacteria_Prochlorococcus_marinus_subsp._marinus_str._CCMP1375/1-322 -> cyanobacteria_Prochlorococcus_marinus_subsp._marinus_str._CCMP1375_1-322
+cyanobacteria_Prochlorococcus_marinus_str._NATL2A/1-321 -> cyanobacteria_Prochlorococcus_marinus_str._NATL2A_1-321
+cyanobacteria_Prochlorococcus_marinus_str._NATL1A/1-321 -> cyanobacteria_Prochlorococcus_marinus_str._NATL1A_1-321
+
+                                                                          Gap/Ambiguity  Composition  p-value
+   1  NEW_WP_033838537.1_1-315                                                   29.37%    passed     77.49%
+   2  NEW_CUH81468.1_1-320                                                       28.25%    passed     35.02%
+   3  NEW_WP_058291633.1_1-298                                                   33.18%    passed     25.82%
+   4  NEW_CUI85963.1_1-319                                                       28.48%    passed     82.30%
+   5  NEW_WP_068087709.1_1-322                                                   27.80%    failed      4.17%
+   6  NEW_WP_066812211.1_1-321                                                   28.03%    failed      0.60%
+   7  NEW_WP_007705260.1_1-322                                                   27.80%    failed      3.33%
+   8  NEW_WP_021691523.1_1-318                                                   28.70%    passed     13.10%
+   9  NEW_WP_062013466.1_1-322                                                   27.80%    failed      0.00%
+  10  NEW_WP_020050092.1_1-322                                                   27.80%    passed     13.11%
+  11  NEW_WP_037103106.1_1-322                                                   27.80%    passed     15.87%
+  12  NEW_WP_037072625.1_1-322                                                   27.80%    passed     12.88%
+  13  NEW_EJJ25060.1_7-328                                                       27.80%    passed     12.88%
+  14  NEW_WP_037455053.1_1-310                                                   30.49%    failed      0.10%
+  15  NEW_WP_067461893.1_1-320                                                   28.25%    passed     12.58%
+  16  NEW_WP_067673946.1_1-320                                                   28.25%    passed     11.07%
+  17  NEW_WP_067499215.1_1-320                                                   28.25%    passed     11.49%
+  18  NEW_WP_044460365.1_1-281                                                   37.00%    passed     92.44%
+  19  NEW_WP_034495512.1_1-281                                                   37.00%    passed     91.88%
+  20  NEW_WP_063947453.1_1-281                                                   37.00%    passed     92.57%
+  21  NEW_KIV60825.1_1-307                                                       31.17%    passed     86.07%
+  22  NEW_WP_066614853.1_4-309                                                   31.39%    passed     21.07%
+  23  NEW_WP_043970354.1_1-291                                                   34.75%    passed      5.16%
+  24  NEW_WP_026438774.1_1-308                                                   30.94%    failed      0.07%
+  25  NEW_WP_008493100.1_1-308                                                   30.94%    failed      0.03%
+  26  NEW_WP_046642033.1_1-327                                                   26.68%    passed     72.67%
+  27  NEW_WP_025591332.1_1-327                                                   26.68%    passed     32.56%
+  28  NEW_WP_052212827.1_1-326                                                   26.91%    passed     85.59%
+  29  NEW_WP_052224486.1_1-327                                                   26.68%    passed     81.56%
+  30  NEW_WP_025418312.1_1-327                                                   26.68%    passed     37.87%
+  31  NEW_AHG48966.1_11-337                                                      26.68%    passed     37.87%
+  32  NEW_WP_069610514.1_1-327                                                   26.68%    passed     83.88%
+  33  NEW_WP_040141254.1_1-327                                                   26.68%    passed     67.65%
+  34  NEW_WP_051336481.1_1-327                                                   26.68%    passed     39.81%
+  35  NEW_WP_003533717.1_1-327                                                   26.68%    passed     40.31%
+  36  NEW_ODT69603.1_1-306                                                       31.39%    passed     66.15%
+  37  NEW_WP_035098662.1_1-307                                                   31.17%    passed     53.96%
+  38  NEW_WP_026792296.1_1-303                                                   32.06%    passed     40.49%
+  39  NEW_WP_046796773.1_1-303                                                   32.06%    passed     73.88%
+  40  NEW_WP_046144787.1_1-305                                                   31.61%    passed     60.58%
+  41  NEW_WP_039905611.1_1-304                                                   31.84%    passed     64.38%
+  42  NEW_GAA09995.1_1-286                                                       35.87%    passed     64.11%
+  43  NEW_WP_011647215.1_1-310                                                   30.49%    failed      2.92%
+  44  NEW_WP_043361268.1_1-325                                                   27.13%    passed     21.44%
+  45  NEW_WP_061883560.1_1-304                                                   31.84%    passed     34.53%
+  46  NEW_WP_041953450.1_1-304                                                   31.84%    passed      5.77%
+  47  NEW_WP_066922337.1_1-304                                                   31.84%    passed      5.35%
+  48  NEW_WP_056428342.1_1-304                                                   31.84%    passed     25.69%
+  49  NEW_WP_056453370.1_1-304                                                   31.84%    passed     21.61%
+  50  NEW_WP_056180727.1_1-304                                                   31.84%    passed     36.58%
+  51  NEW_WP_043758568.1_1-304                                                   31.84%    passed      9.62%
+  52  NEW_AIQ91419.1_1-286                                                       35.87%    passed     13.48%
+  53  NEW_WP_025395837.1_1-304                                                   31.84%    passed     21.78%
+  54  NEW_WP_013079543.1_1-304                                                   31.84%    passed     39.25%
+  55  NEW_WP_061931873.1_1-323                                                   27.58%    passed     28.06%
+  56  NEW_WP_060606503.1_1-317                                                   28.92%    passed     15.96%
+  57  NEW_WP_063693486.1_1-312                                                   30.04%    passed     37.97%
+  58  NEW_WP_039154502.1_1-312                                                   30.04%    passed     31.77%
+  59  NEW_WP_014491494.1_1-312                                                   30.04%    passed     36.02%
+  60  NEW_WP_038950686.1_1-312                                                   30.04%    passed     28.22%
+  61  NEW_WP_046171371.1_1-312                                                   30.04%    passed     40.44%
+  62  NEW_WP_023459641.1_1-328                                                   26.46%    passed     23.79%
+  63  NEW_WP_067683577.1_1-304                                                   31.84%    passed     40.16%
+  64  NEW_WP_047002605.1_1-304                                                   31.84%    failed      4.82%
+  65  NEW_WP_068071815.1_1-301                                                   32.51%    failed      3.63%
+  66  NEW_WP_030541087.1_1-303                                                   32.06%    passed      5.20%
+  67  NEW_WP_067539380.1_1-304                                                   31.84%    passed     67.92%
+  68  NEW_WP_021689033.1_1-302                                                   32.29%    passed     51.15%
+  69  NEW_WP_066765787.1_1-303                                                   32.06%    passed     46.57%
+  70  NEW_WP_063298537.1_1-311                                                   30.27%    passed     25.59%
+  71  NEW_KZL23304.1_1-311                                                       30.27%    passed     26.93%
+  72  NEW_WP_063301006.1_5-315                                                   30.27%    passed     26.93%
+  73  NEW_WP_063319656.1_5-315                                                   30.27%    passed     40.26%
+  74  NEW_KZK79861.1_1-311                                                       30.27%    passed     40.26%
+  75  NEW_WP_063308207.1_5-315                                                   30.27%    passed     37.99%
+  76  NEW_KZK76540.1_1-311                                                       30.27%    passed     37.99%
+  77  NEW_KZL04102.1_1-311                                                       30.27%    passed     44.87%
+  78  NEW_WP_063290269.1_5-315                                                   30.27%    passed     44.87%
+  79  NEW_KZK88317.1_1-311                                                       30.27%    passed     45.44%
+  80  NEW_WP_063302798.1_5-315                                                   30.27%    passed     45.44%
+  81  NEW_WP_014287003.1_5-316                                                   30.04%    passed     69.95%
+  82  NEW_WP_043869673.1_1-327                                                   26.68%    passed     26.86%
+  83  actinobacteria_Saccharopolyspora_erythraea_1-295                           33.86%    failed      0.03%
+  84  actinobacteria_Actinoplanes_sp._N902-109-SDR_1-297                         33.41%    failed      0.28%
+  85  actinobacteria_Microlunatus_phosphovorus-SDR_1-299                         32.96%    passed     11.91%
+  86  actinobacteria_Isoptericola_variabilis_225-SDR_1-297                       33.41%    failed      0.00%
+  87  actinobacteria_Mycobacterium_rhodesiae-SDR_1-292                           34.53%    passed      6.49%
+  88  cyanobacteria_Fremyella_diplosiphon_Fd33_1-320                             28.25%    passed     98.29%
+  89  cyanobacteria_Chlorogloeopsis_fritschii_PCC_9212_1-320                     28.25%    passed     94.31%
+  90  cyanobacteria_cyanobacterium_PCC_7702_1-320                                28.25%    passed     86.66%
+  91  cyanobacteria_Tolypothrix_campylonemoides_1-320                            28.25%    passed     92.19%
+  92  cyanobacteria_Coleofasciculus_chthonoplastes_1-321                         28.03%    passed     32.79%
+  93  cyanobacteria_Fischerella_muscicola_1-320                                  28.25%    passed     92.06%
+  94  Hapalosiphon_sp._MRB220_WP_053457067.1_1-320                               28.25%    passed     94.64%
+  95  cyanobacteria_Mastigocladus_laminosus_UU774_1-133                          70.18%    passed     78.26%
+  96  cyanobacteria_Fischerella_sp._JSC-11_14-333                                28.25%    passed     94.38%
+  97  cyanobacteria_Mastigocladopsis_repens_PCC_10914_1-320                      28.25%    passed     98.06%
+  98  cyanobacteria_Anabaena_variabilis_ATCC_29413_1-329                         26.23%    passed     89.86%
+  99  cyanobacteria_Nostoc_sp._PCC_7120_1-310                                    30.49%    passed     85.72%
+ 100  cyanobacteria_Nostoc_sp._PCC_7107_1-320                                    28.25%    passed     89.15%
+ 101  cyanobacteria_Gloeocapsa_sp._PCC_7428_1-320                                28.25%    passed     73.58%
+ 102  Planktothricoides_sp._SR001_WP_054464488.1_1-320                           28.25%    passed     85.78%
+ 103  cyanobacteria_Oscillatoria_acuminata_1-320                                 28.25%    passed     83.78%
+ 104  cyanobacteria_Crinalium_epipsammum_1-320                                   28.25%    passed     93.66%
+ 105  cyanobacteria_Calothrix_sp._336_3_WP_035150165.1_1-319                     28.48%    passed     66.79%
+ 106  cyanobacteria_Nostoc_punctiforme_1-309                                     30.72%    passed     79.39%
+ 107  cyanobacteria_Chroococcidiopsis_thermalis_PCC_7203_1-322                   27.80%    passed     90.93%
+ 108  cyanobacteria_Scytonema_millei_1-322                                       27.80%    passed     91.10%
+ 109  cyanobacteria_Oscillatoriales_cyanobacterium_JSC-12_1-320                  28.25%    passed     98.73%
+ 110  cyanobacteria_Pleurocapsa_minor_1-320                                      28.25%    passed     96.14%
+ 111  cyanobacteria_Arthrospira_maxima_CS-328_1-321                              28.03%    passed     70.32%
+ 112  cyanobacteria_Arthrospira_platensis_1-321                                  28.03%    passed     66.44%
+ 113  cyanobacteria_Neosynechococcus_sphagnicola_1-320                           28.25%    passed     99.85%
+ 114  cyanobacteria_Microcoleus_sp._PCC_7113_1-320                               28.25%    passed     86.20%
+ 115  cyanobacteria_Spirulina_subsalsa_1-324                                     27.35%    passed     43.94%
+ 116  Phormidium_sp._OSCR_KPQ38664.1_1-321                                       28.03%    passed     75.40%
+ 117  cyanobacteria_Oscillatoria_sp._PCC_10802_1-321                             28.03%    passed     92.15%
+ 118  cyanobacteria_Crocosphaera_watsonii_1-321                                  28.03%    passed     94.69%
+ 119  cyanobacteria_Cyanothece_sp._ATCC_1-321                                    28.03%    passed     83.29%
+ 120  cyanobacteria_Microcoleus_vaginatus_FGP-2_1-335                            24.89%    passed     94.22%
+ 121  cyanobacteria_Oscillatoria_nigro-viridis_1-335                             24.89%    passed     90.72%
+ 122  cyanobacteria_Microcystis_sp._T1-4_1-320                                   28.25%    passed     92.84%
+ 123  cyanobacteria_Microcystis_aeruginosa_1-320                                 28.25%    passed     90.59%
+ 124  cyanobacteria_Geitlerinema_sp._PCC_7105_1-320                              28.25%    passed     84.53%
+ 125  cyanobacteria_Pseudanabaena_biceps_1-320                                   28.25%    passed     96.64%
+ 126  cyanobacteria_Anabaena_sp._90_1-331                                        25.78%    passed     85.01%
+ 127  cyanobacteria_Aphanizomenon_flos-aquae_1-331                               25.78%    passed     72.45%
+ 128  cyanobacteria_Dolichospermum_circinale_1-331                               25.78%    passed     84.76%
+ 129  cyanobacteria_Planktothrix_agardhii_NIVA-CYA_126_8_KEI67287.1_1-319        28.48%    passed     89.61%
+ 130  cyanobacteria_Cyanothece_sp._PCC_7424_1-325                                27.13%    passed     97.79%
+ 131  cyanobacteria_Cylindrospermopsis_raciborskii_CS-505_32-350                 28.48%    passed     93.95%
+ 132  cyanobacteria_Raphidiopsis_brookii_D9_1-319                                28.48%    passed     90.16%
+ 133  cyanobacteria_Nodularia_spumigena_1-320                                    28.25%    passed     92.57%
+ 134  cyanobacteria_Cylindrospermum_stagnale_PCC_7417_1-321                      28.03%    passed     78.08%
+ 135  cyanobacteria_Anabaena_cylindrica_PCC_7122_1-321                           28.03%    passed     67.10%
+ 136  cyanobacteria_Trichormus_azollae_1-321                                     28.03%    passed     97.69%
+ 137  cyanobacteria_Calothrix_sp._PCC_7507_1-321                                 28.03%    passed     33.23%
+ 138  cyanobacteria_Microchaete_sp._PCC_7126_1-321                               28.03%    passed     61.19%
+ 139  cyanobacteria_Scytonema_hofmanni_1-324                                     27.35%    passed     25.36%
+ 140  cyanobacteria_Tolypothrix_bouteillei_VB521301_1-321                        28.03%    passed     14.51%
+ 141  cyanobacteria_Lyngbya_sp._PCC_8106_1-322                                   27.80%    passed     71.10%
+ 142  cyanobacteria_Lyngbya_aestuarii_1-322                                      27.80%    passed     69.64%
+ 143  cyanobacteria_Limnoraphis_robusta_CS-951_1-322                             27.80%    passed     91.62%
+ 144  cyanobacteria_Calothrix_parietina_1-322                                    27.80%    passed     90.13%
+ 145  cyanobacteria_Hassallia_byssoidea_1-323                                    27.58%    passed     80.40%
+ 146  cyanobacteria_Scytonema_tolypothrichoides_1-322                            27.80%    passed     86.91%
+ 147  cyanobacteria_Rivularia_sp._PCC_7116_1-334                                 25.11%    passed     57.50%
+ 148  cyanobacteria_Synechocystis_sp._PCC_7509_1-324                             27.35%    passed     92.41%
+ 149  cyanobacteria_Trichodesmium_erythraeum_1-323                               27.58%    passed     13.55%
+ 150  cyanobacteria_Pseudanabaena_sp._PCC_6802_1-322                             27.80%    passed     98.72%
+ 151  cyanobacteria_Moorea_producens_3L_1-323                                    27.58%    passed     88.51%
+ 152  cyanobacteria_Cyanobacterium_aponinum_1-322                                27.80%    passed     71.60%
+ 153  cyanobacteria_Geminocystis_herdmanii_1-322                                 27.80%    passed     90.29%
+ 154  cyanobacteria_Geminocystis_sp._NIES-3709_1-322                             27.80%    passed     88.73%
+ 155  cyanobacteria_Geminocystis_sp._NIES-3708_1-322                             27.80%    passed     91.77%
+ 156  cyanobacteria_Cyanobacterium_stanieri_PCC_7202_1-323                       27.58%    passed      9.36%
+ 157  cyanobacteria_filamentous_cyanobacterium_ESFC-1_1-322                      27.80%    passed     50.81%
+ 158  cyanobacteria_Synechococcus_elongatus_PCC_6301_1-321                       28.03%    passed     99.90%
+ 159  cyanobacteria_Synechococcus_elongatus_PCC_7942_1-312                       30.04%    passed     99.81%
+ 160  cyanobacteria_Calothrix_sp._PCC_7103_1-322                                 27.80%    passed     97.12%
+ 161  cyanobacteria_Geitlerinema_sp._PCC_7407_1-322                              27.80%    passed     93.20%
+ 162  cyanobacteria_Leptolyngbya_boryana_1-312                                   30.04%    passed     95.43%
+ 163  cyanobacteria_Chamaesiphon_minutus_PCC_6605_1-316                          29.15%    passed     96.61%
+ 164  cyanobacteria_Gloeocapsa_sp._PCC_73106_1-331                               25.78%    passed     86.29%
+ 165  cyanobacteria_Leptolyngbya_sp._Heron_Island_J_1-320                        28.25%    passed     81.11%
+ 166  cyanobacteria_Leptolyngbya_sp._PCC_7375_1-320                              28.25%    passed     92.96%
+ 167  cyanobacteria_Myxosarcina_sp._GI1_1-320                                    28.25%    passed     77.33%
+ 168  cyanobacteria_Pleurocapsa_sp._PCC_7319_1-320                               28.25%    passed     98.38%
+ 169  cyanobacteria_Prochlorothrix_hollandica_1-324                              27.35%    passed     83.39%
+ 170  cyanobacteria_Nodosilinea_nodulosa_1-334                                   25.11%    passed     99.93%
+ 171  cyanobacteria_Stanieria_cyanosphaera_1-326                                 26.91%    passed     71.17%
+ 172  cyanobacteria_Xenococcus_sp._PCC_7305_1-326                                26.91%    passed     66.50%
+ 173  cyanobacteria_Thermosynechococcus_sp._NK55a_1-322                          27.80%    passed     96.05%
+ 174  cyanobacteria_Thermosynechococcus_elongatus_BP-1_1-312                     30.04%    passed     63.53%
+ 175  cyanobacteria_Synechocystis_sp._PCC_6803_1-312                             30.04%    passed     59.09%
+ 176  cyanobacteria_Aphanocapsa_montana_BDHKU210001_1-327                        26.68%    passed     97.30%
+ 177  cyanobacteria_Lyngbya_confervoides_BDU141951_1-327                         26.68%    passed     97.30%
+ 178  cyanobacteria_Dactylococcopsis_salina_1-323                                27.58%    passed     40.89%
+ 179  cyanobacteria_Halothece_sp._PCC_7418_1-323                                 27.58%    passed     40.88%
+ 180  cyanobacteria_Acaryochloris_marina_1-336                                   24.66%    passed     79.84%
+ 181  cyanobacteria_Acaryochloris_sp._CCMEE_5410_1-336                           24.66%    passed     87.74%
+ 182  cyanobacteria_Richelia_intracellularis_1-303                               32.06%    passed     61.98%
+ 183  Phormidesmis_priestleyi_Ana_KPQ35081.1_24-345                              27.80%    passed     62.63%
+ 184  cyanobacteria_Rubidibacter_lacunae_1-327                                   26.68%    passed     99.82%
+ 185  cyanobacteria_Pseudanabaena_sp._PCC_7367_1-321                             28.03%    passed     82.06%
+ 186  cyanobacteria_Gloeobacter_violaceus_PCC_7421_1-311                         30.27%    passed     98.80%
+ 187  proteobacteria_Dinoroseobacter_shibae_1-310                                30.49%    passed     83.04%
+ 188  proteobacteria_Loktanella_vestfoldensis_1-310                              30.49%    passed     99.92%
+ 189  Sphingomonadales_sp._genome_bin_49_Ga0077557_2624442664_proteo_1-332       25.56%    passed     88.24%
+ 190  proteobacteria_Sulfitobacter_guttiformis_1-310                             30.49%    passed     96.75%
+ 191  Loktanella_fryxellensis_DSM_16213_2623288000_proteo_1-326                  26.91%    passed     92.17%
+ 192  proteobacteria_Erythrobacter_litoralis_1-310                               30.49%    passed     36.25%
+ 193  Erythrobacteraceae_bacterium_HL-111_KPP91129.1_1-327                       26.68%    passed      5.21%
+ 194  Porphyrobacter_dokdonensis_WP_068863292.1_1-332                            25.56%    passed     38.76%
+ 195  Erythrobacter_sp._SCN_62-14_ODS93018.1_1-333                               25.34%    passed     50.44%
+ 196  proteobacteria_Acidiphilium_angustum_1-312                                 30.04%    passed     71.47%
+ 197  Acidiphilium_rubrum_ATCC_35905_2681882064_proteo_12-337                    26.91%    passed     65.12%
+ 198  Porphyrobacter_sanguineus_DSM_11032_2583133031_proteo_1-169                62.11%    passed     17.27%
+ 199  proteobacteria_Metagenomic-POR_1-310                                       30.49%    passed     99.94%
+ 200  proteobacteria_Sandarakinorhabdus_limnophila_1-314                         29.60%    passed     77.97%
+ 201  Sandarakinorhabdus_sp._AAP62_WP_020480449.1_1-323                          27.58%    passed     53.62%
+ 202  Gemmatimonas_phototrophica_WP_026848496.1_1-322                            27.80%    passed     85.20%
+ 203  cyanobacteria_Cyanobium_sp._PCC_7001_1-329                                 26.23%    passed     91.20%
+ 204  cyanobacteria_uncultured_marine_type-A_Synechococcus_5B2_1-316             29.15%    passed     91.56%
+ 205  cyanobacteria_uncultured_marine_type-A_Synechococcus_4O4_1-316             29.15%    passed     98.29%
+ 206  cyanobacteria_Cyanobium_gracile_PCC_6307_1-341                             23.54%    passed     85.72%
+ 207  cyanobacteria_Cyanobium_sp._CACIAM_14_1-339                                23.99%    passed     90.64%
+ 208  cyanobacteria_Candidatus_Synechococcus_spongiarum_1-325                    27.13%    passed     64.71%
+ 209  cyanobacteria_Synechococcus_sp._CC9311_1-318                               28.70%    failed      0.00%
+ 210  cyanobacteria_Synechococcus_sp._WH_7803_1-315                              29.37%    failed      0.25%
+ 211  cyanobacteria_Synechococcus_sp._CC9902_1-307                               31.17%    passed     34.13%
+ 212  cyanobacteria_Synechococcus_sp._WH_8102_1-304                              31.84%    failed      0.30%
+ 213  cyanobacteria_Prochlorococcus_marinus_subsp._marinus_str._CCMP1375_1-322   27.80%    failed      0.00%
+ 214  cyanobacteria_Prochlorococcus_marinus_str._NATL2A_1-321                    28.03%    failed      0.00%
+ 215  cyanobacteria_Prochlorococcus_marinus_str._NATL1A_1-321                    28.03%    failed      0.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                      29.28%  19 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: 8 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: NEW_EJJ25060.1_7-328 (identical to NEW_WP_037072625.1_1-322) is ignored but added at the end
+NOTE: NEW_AHG48966.1_11-337 (identical to NEW_WP_025418312.1_1-327) is ignored but added at the end
+NOTE: NEW_WP_063301006.1_5-315 (identical to NEW_KZL23304.1_1-311) is ignored but added at the end
+NOTE: NEW_KZK79861.1_1-311 (identical to NEW_WP_063319656.1_5-315) is ignored but added at the end
+NOTE: NEW_KZK76540.1_1-311 (identical to NEW_WP_063308207.1_5-315) is ignored but added at the end
+NOTE: NEW_WP_063290269.1_5-315 (identical to NEW_KZL04102.1_1-311) is ignored but added at the end
+NOTE: NEW_WP_063302798.1_5-315 (identical to NEW_KZK88317.1_1-311) is ignored but added at the end
+NOTE: cyanobacteria_Lyngbya_confervoides_BDU141951_1-327 (identical to cyanobacteria_Aphanocapsa_montana_BDHKU210001_1-327) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to Aln-LPOR-bacteria-only-133+SDR-oxi-trimmed.fa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.146 seconds
+NOTE: MODEL SELECTION REQUIRES 59 MB MEMORY!
+Testing 144 protein models (sample size: 446) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       54898.463    411 110618.925   120579.631   112304.156
+  2  Dayhoff+I     54670.995    412 110165.990   120478.475   111855.322
+  3  Dayhoff+G4    52215.281    412 105254.561   115567.046   106943.893
+  4  Dayhoff+I+G4  52179.861    413 105185.721   115872.096   106879.153
+  5  Dayhoff+F     54720.803    430 110301.607   135012.273   112064.744
+  6  Dayhoff+F+I   54482.211    431 109826.421   136425.279   111593.659
+  7  Dayhoff+F+G4  51978.279    431 104818.558   131417.415   106585.795
+  8  Dayhoff+F+I+G4 51940.493    432 104744.986   133522.832   106516.324
+  9  mtMAM         62965.535    411 126753.070   136713.776   128438.301
+ 10  mtMAM+I       62757.535    412 126339.070   136651.555   128028.401
+ 11  mtMAM+G4      56922.081    412 114668.163   124980.648   116357.494
+ 12  mtMAM+I+G4    56909.076    413 114644.153   125330.528   116337.585
+ 13  mtMAM+F       59098.633    430 119057.265   143767.932   120820.403
+ 14  mtMAM+F+I     58853.942    431 118569.884   145168.741   120337.121
+ 15  mtMAM+F+G4    54110.867    431 109083.734   135682.591   110850.971
+ 16  mtMAM+F+I+G4  54080.621    432 109025.241   137803.087   110796.579
+ 17  JTT           54624.673    411 110071.347   120032.053   111756.578
+ 18  JTT+I         54401.367    412 109626.735   119939.219   111316.066
+ 19  JTT+G4        51848.408    412 104520.815   114833.300   106210.146
+ 20  JTT+I+G4      51817.703    413 104461.407   115147.782   106154.838
+ 21  JTT+F         54595.015    430 110050.029   134760.696   111813.166
+ 22  JTT+F+I       54358.516    431 109579.032   136177.890   111346.270
+ 23  JTT+F+G4      51761.233    431 104384.467   130983.324   106151.704
+ 24  JTT+F+I+G4    51728.464    432 104320.928   133098.775   106092.266
+ 25  WAG           53961.772    411 108745.544   118706.250   110430.775
+ 26  WAG+I         53744.677    412 108313.355   118625.840   110002.686
+ 27  WAG+G4        51497.516    412 103819.032   114131.517   105508.363
+ 28  WAG+I+G4      51467.988    413 103761.975   114448.350   105455.407
+ 29  WAG+F         53834.076    430 108528.151   133238.818   110291.288
+ 30  WAG+F+I       53608.851    431 108079.702   134678.559   109846.939
+ 31  WAG+F+G4      51350.742    431 103563.485   130162.342   105330.722
+ 32  WAG+F+I+G4    51319.439    432 103502.877   132280.723   105274.215
+ 33  cpREV         54692.738    411 110207.475   120168.181   111892.706
+ 34  cpREV+I       54460.322    412 109744.643   120057.128   111433.975
+ 35  cpREV+G4      52018.639    412 104861.278   115173.763   106550.610
+ 36  cpREV+I+G4    51978.321    413 104782.641   115469.016   106476.073
+ 37  cpREV+F       54376.266    430 109612.533   134323.200   111375.670
+ 38  cpREV+F+I     54131.528    431 109125.055   135723.912   110892.293
+ 39  cpREV+F+G4    51725.819    431 104313.638   130912.495   106080.876
+ 40  cpREV+F+I+G4  51686.558    432 104237.116   133014.962   106008.454
+ 41  mtREV         59401.717    411 119625.433   129586.139   121310.665
+ 42  mtREV+I       59196.485    412 119216.971   129529.455   120906.302
+ 43  mtREV+G4      55155.965    412 111135.930   121448.415   112825.261
+ 44  mtREV+I+G4    55121.733    413 111069.467   121755.842   112762.898
+ 45  mtREV+F       56244.014    430 113348.028   138058.695   115111.166
+ 46  mtREV+F+I     56007.276    431 112876.551   139475.409   114643.789
+ 47  mtREV+F+G4    52621.083    431 106104.166   132703.023   107871.404
+ 48  mtREV+F+I+G4  52598.189    432 106060.377   134838.224   107831.715
+ 49  rtREV         54990.227    411 110802.453   120763.159   112487.684
+ 50  rtREV+I       54792.587    412 110409.173   120721.658   112098.504
+ 51  rtREV+G4      52071.187    412 104966.373   115278.858   106655.704
+ 52  rtREV+I+G4    52045.870    413 104917.741   115604.116   106611.173
+ 53  rtREV+F       54662.387    430 110184.773   134895.440   111947.910
+ 54  rtREV+F+I     54440.014    431 109742.027   136340.884   111509.264
+ 55  rtREV+F+G4    51643.196    431 104148.392   130747.249   105915.630
+ 56  rtREV+F+I+G4  51614.928    432 104093.857   132871.703   105865.194
+ 57  mtART         62858.957    411 126539.914   136500.620   128225.145
+ 58  mtART+I       62625.766    412 126075.533   136388.017   127764.864
+ 59  mtART+G4      56670.333    412 114164.665   124477.150   115853.997
+ 60  mtART+I+G4    56645.575    413 114117.150   124803.525   115810.582
+ 61  mtART+F       58928.639    430 118717.277   143427.944   120480.414
+ 62  mtART+F+I     58682.307    431 118226.613   144825.470   119993.851
+ 63  mtART+F+G4    53780.055    431 108422.109   135020.967   110189.347
+ 64  mtART+F+I+G4  53759.217    432 108382.434   137160.280   110153.772
+ 65  mtZOA         59783.624    411 120389.249   130349.954   122074.480
+ 66  mtZOA+I       59572.774    412 119969.548   130282.033   121658.880
+ 67  mtZOA+G4      54691.723    412 110207.445   120519.930   111896.777
+ 68  mtZOA+I+G4    54668.745    413 110163.490   120849.865   111856.922
+ 69  mtZOA+F       56978.208    430 114816.416   139527.082   116579.553
+ 70  mtZOA+F+I     56740.994    431 114343.989   140942.846   116111.226
+ 71  mtZOA+F+G4    52760.454    431 106382.909   132981.766   108150.146
+ 72  mtZOA+F+I+G4  52738.005    432 106340.009   135117.856   108111.347
+ 73  VT            54193.659    411 109209.319   119170.025   110894.550
+ 74  VT+I          53972.460    412 108768.920   119081.405   110458.251
+ 75  VT+G4         51695.461    412 104214.922   114527.407   105904.254
+ 76  VT+I+G4       51664.747    413 104155.494   114841.869   105848.926
+ 77  VT+F          54114.078    430 109088.155   133798.822   110851.292
+ 78  VT+F+I        53884.813    431 108631.626   135230.484   110398.864
+ 79  VT+F+G4       51590.559    431 104043.117   130641.974   105810.355
+ 80  VT+F+I+G4     51557.222    432 103978.444   132756.290   105749.782
+ 81  LG            54367.886    411 109557.773   119518.479   111243.004
+ 82  LG+I          54163.544    412 109151.089   119463.573   110840.420
+ 83  LG+G4         51452.373    412 103728.747   114041.232   105418.078
+ 84  LG+I+G4       51422.062    413 103670.124   114356.499   105363.556
+ 85  LG+F          54288.990    430 109437.981   134148.647   111201.118
+ 86  LG+F+I        54072.867    431 109007.733   135606.590   110774.970
+ 87  LG+F+G4       51341.250    431 103544.501   130143.358   105311.738
+ 88  LG+F+I+G4     51313.927    432 103491.854   132269.700   105263.192
+ 89  DCMut         54898.399    411 110618.798   120579.504   112304.029
+ 90  DCMut+I       54670.753    412 110165.507   120477.991   111854.838
+ 91  DCMut+G4      52217.661    412 105259.323   115571.808   106948.654
+ 92  DCMut+I+G4    52182.122    413 105190.245   115876.620   106883.676
+ 93  DCMut+F       54720.604    430 110301.208   135011.875   112064.345
+ 94  DCMut+F+I     54481.874    431 109825.749   136424.606   111592.986
+ 95  DCMut+F+G4    51980.146    431 104822.292   131421.149   106589.530
+ 96  DCMut+F+I+G4  51942.341    432 104748.682   133526.528   106520.020
+ 97  PMB           54664.210    411 110150.421   120111.126   111835.652
+ 98  PMB+I         54447.342    412 109718.683   120031.168   111408.015
+ 99  PMB+G4        52148.250    412 105120.500   115432.984   106809.831
+100  PMB+I+G4      52116.449    413 105058.897   115745.272   106752.329
+101  PMB+F         54440.770    430 109741.540   134452.207   111504.677
+102  PMB+F+I       54213.977    431 109289.954   135888.811   111057.192
+103  PMB+F+G4      51933.887    431 104729.775   131328.632   106497.012
+104  PMB+F+I+G4    51901.124    432 104666.248   133444.094   106437.586
+105  HIVb          56752.699    411 114327.398   124288.103   116012.629
+106  HIVb+I        56470.289    412 113764.578   124077.063   115453.910
+107  HIVb+G4       53327.860    412 107479.719   117792.204   109169.051
+108  HIVb+I+G4     53285.265    413 107396.530   118082.905   109089.962
+109  HIVb+F        56538.790    430 113937.581   138648.248   115700.718
+110  HIVb+F+I      56238.238    431 113338.476   139937.333   115105.713
+111  HIVb+F+G4     52991.175    431 106844.351   133443.208   108611.588
+112  HIVb+F+I+G4   52946.577    432 106757.154   135535.000   108528.491
+113  HIVw          59036.242    411 118894.485   128855.191   120579.716
+114  HIVw+I        58764.296    412 118352.592   128665.077   120041.923
+115  HIVw+G4       55821.099    412 112466.199   122778.684   114155.530
+116  HIVw+I+G4     55785.964    413 112397.928   123084.303   114091.360
+117  HIVw+F        58002.094    430 116864.188   141574.855   118627.326
+118  HIVw+F+I      57690.598    431 116243.196   142842.053   118010.434
+119  HIVw+F+G4     54588.035    431 110038.069   136636.927   111805.307
+120  HIVw+F+I+G4   54534.100    432 109932.199   138710.045   111703.537
+121  JTTDCMut      54596.689    411 110015.378   119976.084   111700.609
+122  JTTDCMut+I    54376.048    412 109576.095   119888.580   111265.427
+123  JTTDCMut+G4   51832.739    412 104489.478   114801.963   106178.810
+124  JTTDCMut+I+G4 51802.242    413 104430.484   115116.859   106123.916
+125  JTTDCMut+F    54560.509    430 109981.017   134691.684   111744.155
+126  JTTDCMut+F+I  54325.876    431 109513.751   136112.608   111280.989
+127  JTTDCMut+F+G4 51739.101    431 104340.202   130939.059   106107.439
+128  JTTDCMut+F+I+G4 51706.574    432 104277.148   133054.994   106048.486
+129  FLU           56169.312    411 113160.624   123121.329   114845.855
+130  FLU+I         55945.933    412 112715.866   123028.351   114405.198
+131  FLU+G4        53215.217    412 107254.434   117566.919   108943.765
+132  FLU+I+G4      53185.512    413 107197.024   117883.399   108890.456
+133  FLU+F         55440.457    430 111740.914   136451.581   113504.051
+134  FLU+F+I       55186.588    431 111235.176   137834.033   113002.413
+135  FLU+F+G4      52370.275    431 105602.549   132201.406   107369.787
+136  FLU+F+I+G4    52340.573    432 105545.146   134322.992   107316.484
+137  Blosum62      54659.675    411 110141.350   120102.056   111826.581
+138  Blosum62+I    54438.920    412 109701.840   120014.325   111391.172
+139  Blosum62+G4   52141.384    412 105106.768   115419.253   106796.099
+140  Blosum62+I+G4 52105.092    413 105036.183   115722.558   106729.615
+141  Blosum62+F    54459.134    430 109778.268   134488.935   111541.406
+142  Blosum62+F+I  54225.472    431 109312.944   135911.801   111080.181
+143  Blosum62+F+G4 51941.805    431 104745.610   131344.467   106512.848
+144  Blosum62+F+I+G4 51907.870    432 104679.740   133457.586   106451.078
+Akaike Information Criterion:           LG+F+I+G4
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+I+G4
+Best-fit model: LG+F+I+G4 chosen according to BIC
+CPU time for model selection: 611.368 seconds.
+
+NOTE: 59 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+
+Testing with init. pinv = 0.000 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.092 / Logl: -51313.932
+
+Testing with init. pinv = 0.008 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.093 / Logl: -51313.930
+
+Testing with init. pinv = 0.016 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.095 / Logl: -51313.928
+
+Testing with init. pinv = 0.024 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.095 / Logl: -51313.928
+
+Testing with init. pinv = 0.032 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.094 / Logl: -51313.927
+
+Testing with init. pinv = 0.040 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.095 / Logl: -51313.927
+
+Testing with init. pinv = 0.048 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.096 / Logl: -51313.927
+
+Testing with init. pinv = 0.056 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.095 / Logl: -51313.928
+
+Testing with init. pinv = 0.064 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.096 / Logl: -51313.928
+
+Testing with init. pinv = 0.072 / init. alpha = 1.000
+Est. p_inv: 0.020 / Est. gamma shape: 1.096 / Logl: -51313.929
+
+Best p_inv: 0.020 / best gamma shape: 1.095 / Logl: -51313.927
+Parameters optimization took 46.765 sec
+Computing ML distances based on estimated model parameters... 12.156 sec
+Computing BIONJ tree...
+0.043 seconds
+Log-likelihood of BIONJ tree: -51427.329
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 15.265 second
+Computing log-likelihood of 98 initial trees ... 81.366 seconds
+Current best score: -51206.982
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -51066.036
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -51049.178
+Iteration 10 / LogL: -51087.978 / Time: 0h:14m:4s
+Iteration 20 / LogL: -51087.645 / Time: 0h:15m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -51049.178 / CPU time: 231.776
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -51048.197
+Iteration 30 / LogL: -51064.549 / Time: 0h:16m:46s (0h:21m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -51046.145
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -51045.127
+Iteration 40 / LogL: -51067.559 / Time: 0h:18m:25s (0h:20m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -51045.098
+Iteration 50 / LogL: -51045.098 / Time: 0h:20m:3s (0h:20m:8s left)
+Iteration 60 / LogL: -51061.089 / Time: 0h:21m:14s (0h:16m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -51039.615
+Iteration 70 / LogL: -51040.020 / Time: 0h:22m:48s (0h:17m:33s left)
+Iteration 80 / LogL: -51090.504 / Time: 0h:24m:18s (0h:15m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -51033.761
+Iteration 90 / LogL: -51033.761 / Time: 0h:26m:0s (0h:17m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -51033.611
+Iteration 100 / LogL: -51059.102 / Time: 0h:27m:39s (0h:17m:27s left)
+Iteration 110 / LogL: -51059.787 / Time: 0h:29m:9s (0h:15m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -51032.660
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 113: -51024.921
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -51023.226
+Iteration 120 / LogL: -51066.549 / Time: 0h:30m:39s (0h:16m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 124: -51019.466
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 127: -51013.195
+Iteration 130 / LogL: -51023.627 / Time: 0h:31m:51s (0h:16m:17s left)
+Iteration 140 / LogL: -51055.718 / Time: 0h:32m:59s (0h:14m:16s left)
+Iteration 150 / LogL: -51082.310 / Time: 0h:34m:6s (0h:12m:21s left)
+Iteration 160 / LogL: -51024.753 / Time: 0h:35m:12s (0h:10m:32s left)
+Iteration 170 / LogL: -51030.019 / Time: 0h:36m:17s (0h:8m:48s left)
+Iteration 180 / LogL: -51029.947 / Time: 0h:37m:23s (0h:7m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 186: -51011.478
+Iteration 190 / LogL: -51037.129 / Time: 0h:38m:31s (0h:14m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 200: -51010.882
+Iteration 200 / LogL: -51010.882 / Time: 0h:39m:36s (0h:14m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 210: -51010.427
+Iteration 210 / LogL: -51010.427 / Time: 0h:40m:41s (0h:14m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 217: -51009.458
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 220: -51008.828
+Iteration 220 / LogL: -51008.828 / Time: 0h:41m:52s (0h:14m:27s left)
+Iteration 230 / LogL: -51032.429 / Time: 0h:42m:56s (0h:12m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 237: -51007.972
+Iteration 240 / LogL: -51013.952 / Time: 0h:44m:5s (0h:13m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 250: -51007.652
+Iteration 250 / LogL: -51007.652 / Time: 0h:45m:10s (0h:14m:2s left)
+Iteration 260 / LogL: -51008.742 / Time: 0h:46m:15s (0h:12m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 261: -51005.188
+Iteration 270 / LogL: -51008.603 / Time: 0h:47m:20s (0h:12m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 279: -51004.441
+Iteration 280 / LogL: -51007.770 / Time: 0h:48m:25s (0h:13m:33s left)
+Iteration 290 / LogL: -51009.076 / Time: 0h:49m:30s (0h:12m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 292: -51004.277
+Iteration 300 / LogL: -51010.785 / Time: 0h:50m:34s (0h:12m:25s left)
+Iteration 310 / LogL: -51026.614 / Time: 0h:51m:38s (0h:10m:59s left)
+Iteration 320 / LogL: -51004.469 / Time: 0h:52m:43s (0h:9m:36s left)
+Iteration 330 / LogL: -51012.996 / Time: 0h:53m:47s (0h:8m:12s left)
+Iteration 340 / LogL: -51024.745 / Time: 0h:54m:51s (0h:6m:51s left)
+Iteration 350 / LogL: -51034.055 / Time: 0h:55m:54s (0h:5m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 359: -51004.037
+Iteration 360 / LogL: -51042.344 / Time: 0h:56m:59s (0h:12m:54s left)
+Iteration 370 / LogL: -51020.034 / Time: 0h:58m:2s (0h:11m:32s left)
+Iteration 380 / LogL: -51006.756 / Time: 0h:59m:7s (0h:10m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 386: -51003.824
+Iteration 390 / LogL: -51021.582 / Time: 1h:0m:11s (0h:12m:20s left)
+Iteration 400 / LogL: -51044.323 / Time: 1h:1m:15s (0h:11m:0s left)
+Iteration 410 / LogL: -51012.079 / Time: 1h:2m:20s (0h:9m:41s left)
+Iteration 420 / LogL: -51039.293 / Time: 1h:3m:23s (0h:8m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 425: -51003.264
+Iteration 430 / LogL: -51024.082 / Time: 1h:4m:29s (0h:12m:1s left)
+Iteration 440 / LogL: -51004.069 / Time: 1h:5m:37s (0h:10m:43s left)
+Iteration 450 / LogL: -51044.515 / Time: 1h:6m:42s (0h:9m:26s left)
+Iteration 460 / LogL: -51009.472 / Time: 1h:7m:46s (0h:8m:9s left)
+Iteration 470 / LogL: -51064.015 / Time: 1h:8m:47s (0h:6m:52s left)
+Iteration 480 / LogL: -51003.834 / Time: 1h:9m:53s (0h:5m:36s left)
+Iteration 490 / LogL: -51008.476 / Time: 1h:10m:59s (0h:4m:21s left)
+Iteration 500 / LogL: -51005.308 / Time: 1h:12m:5s (0h:3m:6s left)
+Iteration 510 / LogL: -51025.401 / Time: 1h:13m:13s (0h:1m:51s left)
+Iteration 520 / LogL: -51023.798 / Time: 1h:14m:19s (0h:0m:37s left)
+TREE SEARCH COMPLETED AFTER 526 ITERATIONS / Time: 1h:14m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -51003.264
+Optimal log-likelihood: -51003.264
+Proportion of invariable sites: 0.020
+Gamma shape alpha: 1.073
+Parameters optimization took 1 rounds (0.899 sec)
+BEST SCORE FOUND : -51003.264
+Total tree length: 62.195
+
+Total number of iterations: 526
+CPU time used for tree search: 3817.464 sec (1h:3m:37s)
+Wall-clock time used for tree search: 3822.321 sec (1h:3m:42s)
+Total CPU time used: 4492.328 sec (1h:14m:52s)
+Total wall-clock time used: 4497.555 sec (1h:14m:57s)
+
+Analysis results written to: 
+  IQ-TREE report:                Aln-LPOR-bacteria-only-133+SDR-oxi-trimmed.fa.iqtree
+  Maximum-likelihood tree:       Aln-LPOR-bacteria-only-133+SDR-oxi-trimmed.fa.treefile
+  Likelihood distances:          Aln-LPOR-bacteria-only-133+SDR-oxi-trimmed.fa.mldist
+  Screen log file:               Aln-LPOR-bacteria-only-133+SDR-oxi-trimmed.fa.log
+
+Date and Time: Mon Jan 16 14:40:53 2017

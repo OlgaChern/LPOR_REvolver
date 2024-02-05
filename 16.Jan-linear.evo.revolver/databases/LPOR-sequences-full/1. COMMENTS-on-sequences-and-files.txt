@@ -1,0 +1,51 @@
+
+This sequence is partial and has only 133 aa. Possibly it would be better to exc;ude it.
+DELETED from LPOR analysis at all
+>Mastigocladus_laminosus_UU774_KIY13402.1
+VKAYKDSKVCNVLTMRELHRRYHDSTGIIFSSLYPGCVAETPLFRNHYPLFQKLFPLFQKHITGGYVSQE
+LSGERVAAVVADPEYAQSGAYWSWGNRQKKDGKSFVQRVSPQARDDAKGERMWDLSVKLVGIA 
+
+
+
+
+Another sequence has 169 aa, it was deleted from hmm proteobacteria model
+>Porphyrobacter_sanguineus_DSM_11032|2583133031|proteo
+-----------MTIESEKTTLVTGASSGVGLWTARALAARGWHVIMAC------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------RELHARFHADTRSICATV
+YPGCVADTPLFHHAPRAFQSIFPWFQKNVTRGYVSQPLSGERVAQVIADPEF-TTSGVHW
+SWGNRQKPHARAFAQPLSAKAEKSAKAENPQRSSRLWDLSGRLVGLERPAIPQSA----
+
+
+
+
+##########################################################################################
+below sequences were not full length in your dataset 
+(trimmed on one or both sides, possibly you got them from an alignment)
+
+
+>Dinoroseobacter_shibae_DFL12_WP_012187437
+>Sandarakinorhabdus_limnophila_DSM_17366_WP_022680993
+>Acidiphilium_angustum_ATCC_35903_WP_029314395
+>Erythrobacter_litoralis_DSM_8509_KEO90002
+>Loktanella_vestfoldensis_DSM_16212_WP_026352701
+>Sulfitobacter_guttiformis_KCTC_32187_WP_025063112
+>Gloeobacter_violaceus_PCC_7421_NP_925432
+>Nostoc_punctiforme_PCC_73102_WP_012409292
+>Nostoc_sp._PCC_7120_WP_010995911
+>Synechocystis_sp._PCC_6803_AAA68281
+>Thermosynechococcus_elongatus_BP1_NP681365
+>Leptolyngbya_boryana_PCC_6306_WP_017290625
+>Synechococcus_elongatus_PCC_7942_AAL03934
+>Synechococcus_sp._CC9311_WP_011619093
+>Synechococcus_sp._WH_7803_WP_011932776
+>Synechococcus_sp._CC9902_WP_011360007
+>Synechococcus_sp._WH_8102_WP_011127994
+>Prochlorococcus_marinus_subsp._marinus_str._CCMP1375_NP_875183
+>Prochlorococcus_marinus_str._NATL2A_WP_011293608
+>Prochlorococcus_marinus_str._NATL1A_WP_011823416
+
+
+I did not get full sequence of the one below: where??
+>Metagenomic-POR_JCVI_readid_1095522100565

@@ -1,0 +1,58 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../LPOR-proteo-16.hmm
+# target sequence database:        root-seq-4.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       LPOR-proteo-16.aln.FFT-NS-i  [M=318]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    8.7e-37  112.9   0.0    5.7e-34  103.7   0.0    2.1  2  CUI85963.1  Fatty acylCoA reductase [Thalassobius sp. CECT 51
+
+
+Domain annotation for each sequence (and alignments):
+>> CUI85963.1  Fatty acylCoA reductase [Thalassobius sp. CECT 5113] >CUK25569.1 Fatty acylCoA reductase [Thalassobius sp
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.7   0.0   5.7e-34   5.7e-34       5     143 ..      21     158 ..      15     164 .. 0.93
+   2 !    7.5   0.0    0.0001    0.0001     182     223 ..     180     220 ..     174     319 .] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 103.7 bits;  conditional E-value: 5.7e-34
+  LPOR-proteo-16.aln.FFT-NS-i   5 klaivtGassGvGlyatkalvdrGwhvimacrdlakaeaaaaelglekdsreileldlgslasvrafaeefralekaldalv 86 
+                                  k+ ivtGa sGvGl +t+ lv++G hv+macr  +  e  a++ +  k s+e+++ dlg+l++vr f+++f+ +++ ld l+
+                   CUI85963.1  21 KIYIVTGANSGVGLETTRQLVTQGGHVVMACRRPEAGEDVAKSFAGLKGSYEVIRCDLGDLQTVRDFVATFKERHDRLDGLM 102
+                                  678******************************************************************************* PP
+
+  LPOR-proteo-16.aln.FFT-NS-i  87 lnaavylprlkeparspegyeisvatnylghfllanllledlkkaeakrlvtlgtvt 143
+                                  +na   +    e + + +g e+++a+ + ghfll++lll+ lk ++ +r+ +l +v 
+                   CUI85963.1 103 CNAGAVIMG-SEAQYTKDGLELTMAASFDGHFLLTELLLDTLKASAPSRIGILSSVV 158
+                                  **9876654.5677899********************************99988774 PP
+
+  == domain 2  score: 7.5 bits;  conditional E-value: 0.0001
+  LPOR-proteo-16.aln.FFT-NS-i 182 pfkpgkaykdsklalmilsrelharyheetgivfatlypGcv 223
+                                  ++ +  ay ++k+a+++ + el++r  + tg+  a+++pG  
+                   CUI85963.1 180 DYSAFAAYAEAKVANVLYAMELDERL-KGTGVTTASIHPGWA 220
+                                  5667789******************9.78**********963 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (318 nodes)
+Target sequences:                            1  (319 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

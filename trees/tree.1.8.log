@@ -1,0 +1,14 @@
+IQ-TREE version 1.5.1 for Linux 64-bit built Nov  8 2016
+Copyright (c) 2011-2016 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    franklin (AVX, 15 GB RAM)
+Command: iqtree -r 20 -rlen 0.01 0.3 1.5 trees/tree.1.8
+Seed:    380693 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan  9 14:34:56 2017
+Kernel:  AVX
+
+NOTE: Consider using the multicore version because your CPU has 4 cores!
+
+Generating random Yule-Harding tree...
+1 tree(s) printed to trees/tree.1.8
+Date and Time: Mon Jan  9 14:34:56 2017
