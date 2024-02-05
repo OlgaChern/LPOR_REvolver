@@ -1,8 +1,0 @@
-#! /bin/sh
-cmd=`basename $0`
-if [ -n "$PWRAP_NCBI_BLAST" ]
-then echo "$0 : Executable $cmd not found">&2;exit 1
-fi
-PWRAP_NCBI_BLAST=1;export PWRAP_NCBI_BLAST
-. /usr/local/admin/ncbi-blast.profile
-exec $cmd ${@+"$@"}

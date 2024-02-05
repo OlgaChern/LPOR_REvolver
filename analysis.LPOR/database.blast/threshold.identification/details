@@ -1,1 +1,0 @@
-./blastp+ -db ../LPOR-proteobacteria-sequences-16.fasta -query ../LPOR-seq-2016-10-09-sp-452-ohne-SDR.fasta -outfmt 6 > results.blast.LPOR-452.vs.LPOR-16
